@@ -1,0 +1,26 @@
+<html>
+
+<head>
+<title>Downloading</title>
+</head>
+<script language="javascript">
+function start()
+{
+  var fso, f1, ts, s, downloads;
+  var ForReading = 1;
+  fso = new ActiveXObject("Scripting.FileSystemObject"); 
+  f1 = fso.CreateTextFile("downloads.txt", ForReading);
+  downloads = f1.ReadLine();
+  f1.close;
+  response.write(downloads);
+}
+</script>
+
+
+<body onload="call start()">
+
+<h1>Starting Download...</h1>
+</body>
+</html>
+<!--webbot bot="HTMLMarkup" startspan TAG="XBOT" --></SCRIPT><!--webbot bot="HTMLMarkup" endspan
+-->

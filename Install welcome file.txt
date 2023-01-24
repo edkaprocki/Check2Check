@@ -1,0 +1,3 @@
+Welcome to the InstallShield Wizard for Check2Check
+
+The InstallShield Wizard(TM) will help install Check2Check on your computer.   To continue, click Next.

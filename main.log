@@ -1,0 +1,6 @@
+Line 478: Class MSComDlg.CommonDialog of control help_dialog was not a loaded control class.
+Line 535: Class MSComDlg.CommonDialog of control print_dialog was not a loaded control class.
+Line 780: Class MSComCtl2.MonthView of control calendar was not a loaded control class.
+Line 797: Class TabDlg.SSTab of control entry_tab was not a loaded control class.
+Line 869: Class MSComDlg.CommonDialog of control open_dialog was not a loaded control class.
+Line 877: Class MSFlexGridLib.MSFlexGrid of control entry_grid was not a loaded control class.
