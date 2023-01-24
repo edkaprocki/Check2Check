@@ -1,0 +1,2735 @@
+[Root]
+Most Recent Package=Dep File 8
+Most Recent Deploy=Folder Deployment 1
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Check2Check
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Paradox=No
+Text=No
+Excel=No
+Lotus=No
+Jet 2.x=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM\MSCAL.OCX=
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+c:\program files\common files\microsoft shared\dao\dao350.dll=
+c:\windows\system\msjet35.dll=
+
+[Package|Dep File 1|Files In Project]
+C:\Check2Check\Check2Check.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+E:\VB6\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCAL.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=No
+C:\WINDOWS\SYSTEM\msjet35.dll=No
+C:\WINDOWS\SYSTEM\msjter35.dll=Yes
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM\vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\msrd2x35.dll=Yes
+C:\WINDOWS\SYSTEM\msrepl35.dll=Yes
+E:\VB6\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+C:\Check2Check\Check2Check.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrepl35.dll=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\GRID32.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+E:\VB6\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB6\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+C:\Check2Check\Check2Check.exe=No
+C:\WINDOWS\SYSTEM\GRID32.OCX=No
+
+[Package|Dep File 1|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Check2Check Setup
+
+[Package|Dep File 1|IconGroups]
+Group0=Check2Check
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Dep File 1|Check2Check]
+Icon1=Check2Check.exe
+Title1=Check2Check
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 1|DepFile]
+DepCabFile=
+DepCabRun=
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\Check2Check
+ProjectFolder=C:\Check2Check
+ServerSideCab=
+File1=C:\Check2Check\Check2Check.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 2|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Check2Check
+
+[Package|Dep File 2|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Paradox=No
+Text=No
+Excel=No
+Lotus=No
+Jet 2.x=No
+
+[Package|Dep File 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 2|Files Found]
+
+[Package|Dep File 2|Files Released]
+
+[Package|Dep File 2|Missing Dependency Information]
+
+[Package|Dep File 2|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM\MSCAL.OCX=
+
+[Package|Dep File 2|Files Added]
+
+[Package|Dep File 2|Files Removed]
+c:\program files\common files\microsoft shared\dao\dao350.dll=
+c:\windows\system\msjet35.dll=
+c:\windows\system\dao350.dll=
+c:\windows\system\msjint35.dll=
+c:\windows\system\msjter35.dll=
+c:\windows\system\msrd2x35.dll=
+e:\vb6\wizards\pdwizard\redist\msvcrt40.dll=
+c:\windows\system\vb5db.dll=
+c:\windows\system\vbajet32.dll=
+
+[Package|Dep File 2|Files In Project]
+C:\Check2Check\Check2Check.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+E:\VB6\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCAL.OCX=Yes
+C:\WINDOWS\SYSTEM\msjet35.dll=No
+C:\WINDOWS\SYSTEM\msjter35.dll=No
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=No
+C:\WINDOWS\SYSTEM\vbajet32.dll=No
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\msrd2x35.dll=No
+C:\WINDOWS\SYSTEM\msrepl35.dll=Yes
+E:\VB6\Wizards\PDWizard\Redist\MSVCRT40.DLL=No
+C:\WINDOWS\SYSTEM\VB5DB.DLL=No
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM\DAO350.DLL=No
+
+[Package|Dep File 2|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 2|Install Locations]
+C:\Check2Check\Check2Check.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrepl35.dll=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\GRID32.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+E:\VB6\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB6\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Dep File 2|Configure Shared Files]
+Applicable=Yes
+C:\Check2Check\Check2Check.exe=No
+C:\WINDOWS\SYSTEM\GRID32.OCX=No
+
+[Package|Dep File 2|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Check2Check Setup
+
+[Package|Dep File 2|IconGroups]
+Group0=Check2Check
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Dep File 2|Check2Check]
+Icon1=Check2Check.exe
+Title1=Check2Check
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 2|DepFile]
+DepCabFile=
+DepCabRun=
+
+[Package|Dep File 2|Package]
+PackageFolder=C:\Check2Check
+ProjectFolder=C:\Check2Check
+ServerSideCab=
+File1=C:\Check2Check\Check2Check.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 3|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Check2Check
+
+[Package|Dep File 3|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Paradox=No
+Text=No
+Excel=No
+Lotus=No
+Jet 2.x=No
+Exchange=No
+
+[Package|Dep File 3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 3|Files Found]
+
+[Package|Dep File 3|Files Released]
+
+[Package|Dep File 3|Missing Dependency Information]
+
+[Package|Dep File 3|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM\MSCAL.OCX=
+
+[Package|Dep File 3|Files Added]
+
+[Package|Dep File 3|Files Removed]
+c:\program files\common files\microsoft shared\dao\dao350.dll=
+c:\windows\system\msjet35.dll=
+
+[Package|Dep File 3|Files In Project]
+C:\Check2Check\Check2Check.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\WINDOWS\SYSTEM\MSCAL.OCX=Yes
+C:\WINDOWS\SYSTEM\msjet35.dll=No
+C:\WINDOWS\SYSTEM\msjter35.dll=Yes
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM\vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\msrd2x35.dll=Yes
+C:\WINDOWS\SYSTEM\msrepl35.dll=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+E:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\Dao\DAO350.DLL=No
+E:\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+E:\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+
+[Package|Dep File 3|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 3|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 3|Install Locations]
+C:\Check2Check\Check2Check.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrepl35.dll=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\GRID32.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+E:\VB6\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB6\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\DAO350.DLL=$(MSDAOPath)
+E:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+E:\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+
+[Package|Dep File 3|Configure Shared Files]
+Applicable=Yes
+C:\Check2Check\Check2Check.exe=No
+C:\WINDOWS\SYSTEM\GRID32.OCX=No
+
+[Package|Dep File 3|Distribution]
+Type=single
+Size=1.44 MB
+Title=Check 2 Check Setup
+
+[Package|Dep File 3|IconGroups]
+Group0=Check2Check
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Dep File 3|Check2Check]
+Icon1=Check2Check.exe
+Title1=Check2Check
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 3|DepFile]
+DepCabFile=Check2Check.CAB
+DepCabRun=Check2Check.INF
+
+[Package|Dep File 3|Package]
+PackageFolder=C:\Check2Check
+ProjectFolder=C:\Check2Check
+ServerSideCab=
+File1=C:\Check2Check\Check2Check.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Check2Check\package2
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Paradox=No
+Text=No
+Excel=No
+Lotus=No
+Jet 2.x=No
+Exchange=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM\MSCAL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\program files\common files\microsoft shared\dao\dao350.dll=
+c:\windows\system\msjet35.dll=
+c:\windows\system\msjint35.dll=
+c:\windows\system\msjter35.dll=
+c:\windows\system\msrd2x35.dll=
+c:\windows\system\msrepl35.dll=
+e:\vb98\wizards\pdwizard\redist\msvcrt40.dll=
+c:\windows\system\vb5db.dll=
+c:\windows\system\vbajet32.dll=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Check2Check\Check2Check.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\WINDOWS\SYSTEM\MSCAL.OCX=Yes
+C:\WINDOWS\SYSTEM\msjet35.dll=No
+C:\WINDOWS\SYSTEM\msjter35.dll=No
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=No
+C:\WINDOWS\SYSTEM\vbajet32.dll=No
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\msrd2x35.dll=No
+C:\WINDOWS\SYSTEM\msrepl35.dll=No
+C:\WINDOWS\SYSTEM\VB5DB.DLL=No
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+E:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\Dao\DAO350.DLL=No
+E:\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=No
+E:\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Check2Check\Check2Check.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrepl35.dll=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\GRID32.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+E:\VB6\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB6\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\DAO350.DLL=$(MSDAOPath)
+E:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Check2Check\Check2Check.exe=No
+C:\WINDOWS\SYSTEM\GRID32.OCX=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=1.44 MB
+Title=Check2Check Setup
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Check2Check\package2
+ProjectFolder=C:\Check2Check
+ServerSideCab=
+File1=C:\Check2Check\package2\setup.exe
+File2=C:\Check2Check\package2\Setup.Lst
+File3=C:\Check2Check\package2\Check2Check.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Check2Check
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Check2Check]
+Icon1=Check2Check.exe
+Title1=Check2Check
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Deploy|Folder Deployment 1|Root]
+Package=Standard Setup Package 1
+Handler=PDWizard.FolderDplySubWiz
+Folder=c:\Check2Check\package3
+
+
+[Package|Dep File 4|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Check2Check
+
+[Package|Dep File 4|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Paradox=No
+Text=No
+Excel=No
+Lotus=No
+Jet 2.x=No
+Exchange=No
+
+[Package|Dep File 4|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 4|Files Found]
+
+[Package|Dep File 4|Files Released]
+
+[Package|Dep File 4|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=
+C:\Check2Check\axGrid\axGrid.ocx=
+
+[Package|Dep File 4|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM\MSCAL.OCX=
+
+[Package|Dep File 4|Files Added]
+c:\my documents\susan sample.c2c=
+
+[Package|Dep File 4|Files Removed]
+c:\program files\common files\microsoft shared\dao\dao350.dll=
+c:\windows\system\msjet35.dll=
+c:\windows\system\msjint35.dll=
+c:\windows\system\msjter35.dll=
+c:\windows\system\msrd2x35.dll=
+c:\windows\system\msrepl35.dll=
+e:\vb98\wizards\pdwizard\redist\msvcrt40.dll=
+c:\windows\system\vb5db.dll=
+c:\windows\system\vbajet32.dll=
+
+[Package|Dep File 4|Files In Project]
+C:\Check2Check\Check2Check.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCAL.OCX=Yes
+C:\WINDOWS\SYSTEM\msjet35.dll=No
+C:\WINDOWS\SYSTEM\msjter35.dll=No
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=No
+C:\WINDOWS\SYSTEM\vbajet32.dll=No
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\msrd2x35.dll=No
+C:\WINDOWS\SYSTEM\msrepl35.dll=No
+C:\WINDOWS\SYSTEM\VB5DB.DLL=No
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\Dao\DAO350.DLL=No
+C:\CheckH\C2C.HLP=Yes
+C:\My Documents\SUSAN SAMPLE.c2c=Yes
+D:\VB60\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\VB60\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\VB60\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\VB60\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\VB60\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\VB60\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSINET.OCX=Yes
+C:\Check2Check\axGrid\axGrid.ocx=Yes
+
+[Package|Dep File 4|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 4|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 4|Install Locations]
+C:\Check2Check\Check2Check.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrepl35.dll=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\GRID32.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+E:\VB6\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB6\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\DAO350.DLL=$(MSDAOPath)
+E:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\CheckH\C2C.HLP=$(AppPath)
+C:\My Documents\SUSAN SAMPLE.c2c=$(AppPath)
+D:\VB60\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Check2Check\axGrid\axGrid.ocx=$(WinSysPath)
+
+[Package|Dep File 4|Configure Shared Files]
+Applicable=Yes
+C:\Check2Check\Check2Check.exe=No
+C:\WINDOWS\SYSTEM\GRID32.OCX=No
+
+[Package|Dep File 4|Distribution]
+Type=single
+Size=1.44 MB
+Title=Check2Check Setup
+
+[Package|Dep File 4|IconGroups]
+Group0=Check2Check
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Dep File 4|Check2Check]
+Icon1=Check2Check.exe
+Title1=Check2Check
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 4|DepFile]
+DepCabFile=Check2Check.CAB
+DepCabRun=Check2Check.INF
+
+[Package|Dep File 4|Package]
+PackageFolder=C:\Check2Check
+ProjectFolder=C:\Check2Check
+ServerSideCab=
+File1=C:\Check2Check\Check2Check.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Check2Check\vbsetup
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Paradox=No
+Text=Yes
+Excel=No
+Lotus=No
+Jet 2.x=No
+Exchange=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=
+C:\Check2Check\axGrid\axGrid.ocx=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM\MSCAL.OCX=
+
+[Package|Standard Setup Package 2|Files Added]
+c:\my documents\susan sample.c2c=
+
+[Package|Standard Setup Package 2|Files Removed]
+c:\program files\common files\microsoft shared\dao\dao350.dll=
+c:\windows\system\msjet35.dll=
+c:\windows\system\msjint35.dll=
+c:\windows\system\msjter35.dll=
+c:\windows\system\msrd2x35.dll=
+c:\windows\system\msrepl35.dll=
+e:\vb98\wizards\pdwizard\redist\msvcrt40.dll=
+c:\windows\system\vb5db.dll=
+c:\windows\system\vbajet32.dll=
+
+[Package|Standard Setup Package 2|Files In Project]
+C:\Check2Check\Check2Check.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCAL.OCX=Yes
+C:\WINDOWS\SYSTEM\msjet35.dll=No
+C:\WINDOWS\SYSTEM\msjter35.dll=No
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=No
+C:\WINDOWS\SYSTEM\vbajet32.dll=No
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\msrd2x35.dll=No
+C:\WINDOWS\SYSTEM\msrepl35.dll=No
+C:\WINDOWS\SYSTEM\VB5DB.DLL=No
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\Dao\DAO350.DLL=No
+C:\CheckH\C2C.HLP=Yes
+C:\My Documents\SUSAN SAMPLE.c2c=Yes
+D:\VB60\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\VB60\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\VB60\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\VB60\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\VB60\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\VB60\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSINET.OCX=Yes
+C:\Check2Check\axGrid\axGrid.ocx=Yes
+C:\WINDOWS\SYSTEM\MSTEXT35.DLL=Yes
+D:\VB60\Wizards\PDWizard\SETUP.EXE=Yes
+D:\VB60\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\VB60\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+C:\Check2Check\Check2Check.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrepl35.dll=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\GRID32.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+E:\VB6\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB6\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\DAO350.DLL=$(MSDAOPath)
+E:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\CheckH\C2C.HLP=$(AppPath)
+C:\My Documents\SUSAN SAMPLE.c2c=$(AppPath)
+D:\VB60\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Check2Check\axGrid\axGrid.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSTEXT35.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\VB60\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\VB60\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+C:\Check2Check\Check2Check.exe=No
+C:\WINDOWS\SYSTEM\GRID32.OCX=No
+C:\CheckH\C2C.HLP=No
+C:\My Documents\SUSAN SAMPLE.c2c=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=1.44 MB
+Title=Check2Check Setup
+
+[Package|Standard Setup Package 2|DepFile]
+DepCabFile=Check2Check.CAB
+DepCabRun=Check2Check.INF
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=Check2Check
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|Check2Check]
+Icon1=Check2Check.exe
+Title1=Check2Check
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=C:\Check2Check\vbsetup
+ProjectFolder=C:\Check2Check
+ServerSideCab=
+File1=C:\Check2Check\vbsetup\setup.exe
+File2=C:\Check2Check\vbsetup\Setup.Lst
+File3=C:\Check2Check\vbsetup\Check2Check.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 5|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Check2Check
+
+[Package|Dep File 5|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Paradox=No
+Text=Yes
+Excel=No
+Lotus=No
+Jet 2.x=No
+Exchange=No
+
+[Package|Dep File 5|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 5|Files Found]
+
+[Package|Dep File 5|Files Released]
+
+[Package|Dep File 5|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=
+C:\Check2Check\axGrid\axGrid.ocx=
+
+[Package|Dep File 5|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM\MSCAL.OCX=
+
+[Package|Dep File 5|Files Added]
+c:\my documents\susan sample.c2c=
+
+[Package|Dep File 5|Files Removed]
+c:\program files\common files\microsoft shared\dao\dao350.dll=
+c:\windows\system\msjet35.dll=
+c:\windows\system\msjint35.dll=
+c:\windows\system\msjter35.dll=
+c:\windows\system\msrd2x35.dll=
+c:\windows\system\msrepl35.dll=
+e:\vb98\wizards\pdwizard\redist\msvcrt40.dll=
+c:\windows\system\vb5db.dll=
+c:\windows\system\vbajet32.dll=
+
+[Package|Dep File 5|Files In Project]
+C:\Check2Check\Check2Check.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCAL.OCX=Yes
+C:\WINDOWS\SYSTEM\msjet35.dll=No
+C:\WINDOWS\SYSTEM\msjter35.dll=No
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=No
+C:\WINDOWS\SYSTEM\vbajet32.dll=No
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\msrd2x35.dll=No
+C:\WINDOWS\SYSTEM\msrepl35.dll=No
+C:\WINDOWS\SYSTEM\VB5DB.DLL=No
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\Dao\DAO350.DLL=No
+C:\CheckH\C2C.HLP=Yes
+C:\My Documents\SUSAN SAMPLE.c2c=Yes
+D:\VB60\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\VB60\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\VB60\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\VB60\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\VB60\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\VB60\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSINET.OCX=Yes
+C:\Check2Check\axGrid\axGrid.ocx=Yes
+C:\WINDOWS\SYSTEM\MSTEXT35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+
+[Package|Dep File 5|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 5|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 5|Install Locations]
+C:\Check2Check\Check2Check.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrepl35.dll=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\GRID32.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+E:\VB6\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB6\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\DAO350.DLL=$(MSDAOPath)
+E:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\CheckH\C2C.HLP=$(AppPath)
+C:\My Documents\SUSAN SAMPLE.c2c=$(AppPath)
+D:\VB60\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Check2Check\axGrid\axGrid.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSTEXT35.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\VB60\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\VB60\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+
+[Package|Dep File 5|Configure Shared Files]
+Applicable=Yes
+C:\Check2Check\Check2Check.exe=No
+C:\WINDOWS\SYSTEM\GRID32.OCX=No
+C:\CheckH\C2C.HLP=No
+C:\My Documents\SUSAN SAMPLE.c2c=No
+
+[Package|Dep File 5|Distribution]
+Type=single
+Size=1.44 MB
+Title=Check2Check Setup
+
+[Package|Dep File 5|DepFile]
+DepCabFile=
+DepCabRun=
+
+[Package|Dep File 5|IconGroups]
+Group0=Check2Check
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Dep File 5|Check2Check]
+Icon1=Check2Check.exe
+Title1=Check2Check
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 5|Package]
+PackageFolder=C:\Check2Check
+ProjectFolder=C:\Check2Check
+ServerSideCab=
+File1=C:\Check2Check\Check2Check.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 3|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Check2Check\setup_2_7
+
+[Package|Standard Setup Package 3|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Paradox=No
+Text=Yes
+Excel=No
+Lotus=No
+Jet 2.x=No
+Exchange=No
+
+[Package|Standard Setup Package 3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 3|Files Found]
+
+[Package|Standard Setup Package 3|Files Released]
+
+[Package|Standard Setup Package 3|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=
+C:\Check2Check\axGrid\axGrid.ocx=
+C:\WINDOWS\SYSTEM\axGrid.ocx=
+
+[Package|Standard Setup Package 3|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM\MSCAL.OCX=
+
+[Package|Standard Setup Package 3|Files Added]
+c:\my documents\susan sample.c2c=
+c:\checkh\c2c.cnt=
+
+[Package|Standard Setup Package 3|Files Removed]
+c:\program files\common files\microsoft shared\dao\dao350.dll=
+c:\windows\system\msjet35.dll=
+c:\windows\system\msjint35.dll=
+c:\windows\system\msjter35.dll=
+c:\windows\system\msrd2x35.dll=
+c:\windows\system\msrepl35.dll=
+e:\vb98\wizards\pdwizard\redist\msvcrt40.dll=
+c:\windows\system\vb5db.dll=
+c:\windows\system\vbajet32.dll=
+
+[Package|Standard Setup Package 3|Files In Project]
+C:\Check2Check\Check2Check.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCAL.OCX=Yes
+C:\WINDOWS\SYSTEM\msjet35.dll=No
+C:\WINDOWS\SYSTEM\msjter35.dll=No
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=No
+C:\WINDOWS\SYSTEM\vbajet32.dll=No
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\msrd2x35.dll=No
+C:\WINDOWS\SYSTEM\msrepl35.dll=No
+C:\WINDOWS\SYSTEM\VB5DB.DLL=No
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\Dao\DAO350.DLL=No
+C:\CheckH\C2C.HLP=Yes
+C:\My Documents\SUSAN SAMPLE.c2c=Yes
+D:\VB60\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\VB60\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\VB60\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\VB60\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\VB60\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\VB60\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSINET.OCX=Yes
+C:\WINDOWS\SYSTEM\MSTEXT35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+D:\VB60\Wizards\PDWizard\SETUP.EXE=Yes
+D:\VB60\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\VB60\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\CheckH\C2C.CNT=Yes
+C:\WINDOWS\SYSTEM\axGrid.ocx=Yes
+
+[Package|Standard Setup Package 3|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 3|Install Locations]
+C:\Check2Check\Check2Check.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrepl35.dll=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\GRID32.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+E:\VB6\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB6\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\DAO350.DLL=$(MSDAOPath)
+E:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\CheckH\C2C.HLP=$(AppPath)
+C:\My Documents\SUSAN SAMPLE.c2c=$(AppPath)
+D:\VB60\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Check2Check\axGrid\axGrid.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSTEXT35.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\VB60\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\VB60\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\CheckH\C2C.CNT=$(AppPath)
+C:\WINDOWS\SYSTEM\axGrid.ocx=$(WinSysPath)
+
+[Package|Standard Setup Package 3|Configure Shared Files]
+Applicable=Yes
+C:\Check2Check\Check2Check.exe=No
+C:\WINDOWS\SYSTEM\GRID32.OCX=No
+C:\CheckH\C2C.HLP=No
+C:\My Documents\SUSAN SAMPLE.c2c=No
+C:\CheckH\C2C.CNT=No
+
+[Package|Standard Setup Package 3|Distribution]
+Type=single
+Size=1.44 MB
+Title=Check2Check Setup 2_7
+
+[Package|Standard Setup Package 3|DepFile]
+DepCabFile=
+DepCabRun=
+
+[Package|Standard Setup Package 3|IconGroups]
+Group0=Check2Check
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 3|Check2Check]
+Icon1=Check2Check.exe
+Title1=Check2Check
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 3|Package]
+PackageFolder=C:\Check2Check\setup_2_7
+ProjectFolder=C:\Check2Check
+ServerSideCab=
+File1=C:\Check2Check\setup_2_7\setup.exe
+File2=C:\Check2Check\setup_2_7\Setup.Lst
+File3=C:\Check2Check\setup_2_7\Check2Check.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 31|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Check2Check\setup_3_2
+
+[Package|Dep File 31|Configure DAO ISAMs]
+Applicable=No
+Jet 2.x=Yes
+
+[Package|Dep File 31|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Dep File 31|Files Found]
+C2C.CNT=C:\Check2Check\C2C.CNT
+
+[Package|Dep File 31|Files Released]
+susan sample.c2c=
+oc25.dll=
+USER.DLL=
+GDI.DLL=
+
+[Package|Dep File 31|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=
+C:\Check2Check\axGrid\axGrid.ocx=
+C:\WINDOWS\SYSTEM\axGrid.ocx=
+C:\WINDOWS\system32\axGrid.ocx=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+
+[Package|Dep File 31|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM\MSCAL.OCX=
+C:\Program Files\Microsoft Office\Office\MSCAL.OCX=
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=
+
+[Package|Dep File 31|Files Added]
+c2c.cnt=
+
+[Package|Dep File 31|Files Removed]
+c:\program files\common files\microsoft shared\dao\dao350.dll=
+c:\windows\system\msjet35.dll=
+c:\windows\system\msjint35.dll=
+c:\windows\system\msjter35.dll=
+c:\windows\system\msrd2x35.dll=
+c:\windows\system\msrepl35.dll=
+e:\vb98\wizards\pdwizard\redist\msvcrt40.dll=
+c:\windows\system\vb5db.dll=
+c:\windows\system\vbajet32.dll=
+
+[Package|Dep File 31|Files In Project]
+C:\Check2Check\Check2Check.exe=Yes
+C:\WINDOWS\system32\Msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\Msflxgrd.ocx=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\Tabctl32.ocx=Yes
+C:\WINDOWS\system32\Mscomct2.ocx=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\axGrid.ocx=Yes
+C:\Check2Check\C2C.HLP=Yes
+C:\Check2Check\C2C.CNT=Yes
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+
+[Package|Dep File 31|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 31|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 31|Install Locations]
+C:\Check2Check\Check2Check.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrepl35.dll=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\GRID32.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+E:\VB6\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB6\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\DAO350.DLL=$(MSDAOPath)
+E:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\CheckH\C2C.HLP=$(AppPath)
+C:\My Documents\SUSAN SAMPLE.c2c=$(AppPath)
+D:\VB60\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Check2Check\axGrid\axGrid.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSTEXT35.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\VB60\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\VB60\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\CheckH\C2C.CNT=$(AppPath)
+C:\WINDOWS\SYSTEM\axGrid.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\axGrid.ocx=$(WinSysPath)
+C:\Check2Check\C2C.HLP=$(AppPath)
+C:\Check2Check\SUSAN SAMPLE.c2c=$(AppPath)
+C:\Check2Check\C2C.CNT=$(AppPath)
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+
+[Package|Dep File 31|Configure Shared Files]
+Applicable=Yes
+C:\Check2Check\Check2Check.exe=No
+C:\WINDOWS\SYSTEM\GRID32.OCX=No
+C:\CheckH\C2C.HLP=No
+C:\My Documents\SUSAN SAMPLE.c2c=No
+C:\CheckH\C2C.CNT=No
+
+[Package|Dep File 31|Distribution]
+Type=single
+Size=1.44 MB
+Title=Check2Check Setup 2_7
+
+[Package|Dep File 31|DepFile]
+DepCabFile=3_2
+DepCabRun=
+
+[Package|Dep File 31|IconGroups]
+Group0=Check2Check
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Dep File 31|Check2Check]
+Icon1=Check2Check.exe
+Title1=Check2Check
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 31|Package]
+PackageFolder=C:\Check2Check\setup_3_2
+ProjectFolder=C:\Check2Check
+ServerSideCab=
+File1=C:\Check2Check\setup_3_2\Check2Check.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 4|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Check2Check\setup_3_2
+
+[Package|Standard Setup Package 4|Configure DAO ISAMs]
+Applicable=No
+Jet 2.x=Yes
+
+[Package|Standard Setup Package 4|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 4|Files Found]
+C2C.CNT=C:\Check2Check\C2C.CNT
+
+[Package|Standard Setup Package 4|Files Released]
+susan sample.c2c=
+oc25.dll=
+USER.DLL=
+GDI.DLL=
+
+[Package|Standard Setup Package 4|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=
+C:\Check2Check\axGrid\axGrid.ocx=
+C:\WINDOWS\SYSTEM\axGrid.ocx=
+C:\WINDOWS\system32\axGrid.ocx=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+
+[Package|Standard Setup Package 4|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM\MSCAL.OCX=
+C:\Program Files\Microsoft Office\Office\MSCAL.OCX=
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=
+C:\WINDOWS\system32\comdlg32.ocx=
+
+[Package|Standard Setup Package 4|Files Added]
+c2c.cnt=
+
+[Package|Standard Setup Package 4|Files Removed]
+c:\program files\common files\microsoft shared\dao\dao350.dll=
+c:\windows\system\msjet35.dll=
+c:\windows\system\msjint35.dll=
+c:\windows\system\msjter35.dll=
+c:\windows\system\msrd2x35.dll=
+c:\windows\system\msrepl35.dll=
+e:\vb98\wizards\pdwizard\redist\msvcrt40.dll=
+c:\windows\system\vb5db.dll=
+c:\windows\system\vbajet32.dll=
+
+[Package|Standard Setup Package 4|Files In Project]
+C:\Check2Check\Check2Check.exe=Yes
+C:\WINDOWS\system32\Msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\Msflxgrd.ocx=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\Tabctl32.ocx=Yes
+C:\WINDOWS\system32\Mscomct2.ocx=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\axGrid.ocx=Yes
+C:\Check2Check\C2C.HLP=Yes
+C:\Check2Check\C2C.CNT=Yes
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 4|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 4|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 4|Install Locations]
+C:\Check2Check\Check2Check.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrepl35.dll=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\GRID32.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+E:\VB6\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB6\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\DAO350.DLL=$(MSDAOPath)
+E:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\CheckH\C2C.HLP=$(AppPath)
+C:\My Documents\SUSAN SAMPLE.c2c=$(AppPath)
+D:\VB60\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Check2Check\axGrid\axGrid.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSTEXT35.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\VB60\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\VB60\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\CheckH\C2C.CNT=$(AppPath)
+C:\WINDOWS\SYSTEM\axGrid.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\axGrid.ocx=$(WinSysPath)
+C:\Check2Check\C2C.HLP=$(AppPath)
+C:\Check2Check\SUSAN SAMPLE.c2c=$(AppPath)
+C:\Check2Check\C2C.CNT=$(AppPath)
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 4|Configure Shared Files]
+Applicable=Yes
+C:\Check2Check\Check2Check.exe=No
+C:\WINDOWS\SYSTEM\GRID32.OCX=No
+C:\CheckH\C2C.HLP=No
+C:\My Documents\SUSAN SAMPLE.c2c=No
+C:\CheckH\C2C.CNT=No
+C:\Check2Check\C2C.HLP=No
+C:\Check2Check\C2C.CNT=No
+
+[Package|Standard Setup Package 4|Distribution]
+Type=single
+Size=1.44 MB
+Title=Check2Check Setup 3_2
+
+[Package|Standard Setup Package 4|DepFile]
+DepCabFile=3_2
+DepCabRun=
+
+[Package|Standard Setup Package 4|IconGroups]
+Group0=Check2Check
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 4|Check2Check]
+Icon1=Check2Check.exe
+Title1=Check2Check
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 4|Package]
+PackageFolder=C:\Check2Check\setup_3_2
+ProjectFolder=C:\Check2Check
+ServerSideCab=
+File1=C:\Check2Check\setup_3_2\setup.exe
+File2=C:\Check2Check\setup_3_2\Setup.Lst
+File3=C:\Check2Check\setup_3_2\Check2Check.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 6|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Check2Check\setup_3_2 4-6-03
+
+[Package|Dep File 6|Configure DAO ISAMs]
+Applicable=No
+Jet 2.x=Yes
+
+[Package|Dep File 6|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Dep File 6|Files Found]
+C2C.CNT=C:\Check2Check\C2C.CNT
+
+[Package|Dep File 6|Files Released]
+susan sample.c2c=
+oc25.dll=
+USER.DLL=
+GDI.DLL=
+
+[Package|Dep File 6|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=
+C:\Check2Check\axGrid\axGrid.ocx=
+C:\WINDOWS\SYSTEM\axGrid.ocx=
+C:\WINDOWS\system32\axGrid.ocx=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+
+[Package|Dep File 6|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM\MSCAL.OCX=
+C:\Program Files\Microsoft Office\Office\MSCAL.OCX=
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=
+C:\WINDOWS\system32\comdlg32.ocx=
+
+[Package|Dep File 6|Files Added]
+c2c.cnt=
+
+[Package|Dep File 6|Files Removed]
+c:\program files\common files\microsoft shared\dao\dao350.dll=
+c:\windows\system\msjet35.dll=
+c:\windows\system\msjint35.dll=
+c:\windows\system\msjter35.dll=
+c:\windows\system\msrd2x35.dll=
+c:\windows\system\msrepl35.dll=
+e:\vb98\wizards\pdwizard\redist\msvcrt40.dll=
+c:\windows\system\vb5db.dll=
+c:\windows\system\vbajet32.dll=
+
+[Package|Dep File 6|Files In Project]
+C:\Check2Check\Check2Check.exe=Yes
+C:\WINDOWS\system32\Msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\Msflxgrd.ocx=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\Tabctl32.ocx=Yes
+C:\WINDOWS\system32\Mscomct2.ocx=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\axGrid.ocx=Yes
+C:\Check2Check\C2C.HLP=Yes
+C:\Check2Check\C2C.CNT=Yes
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+
+[Package|Dep File 6|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 6|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 6|Install Locations]
+C:\Check2Check\Check2Check.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrepl35.dll=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\GRID32.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+E:\VB6\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB6\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\DAO350.DLL=$(MSDAOPath)
+E:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\CheckH\C2C.HLP=$(AppPath)
+C:\My Documents\SUSAN SAMPLE.c2c=$(AppPath)
+D:\VB60\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Check2Check\axGrid\axGrid.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSTEXT35.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\VB60\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\VB60\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\CheckH\C2C.CNT=$(AppPath)
+C:\WINDOWS\SYSTEM\axGrid.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\axGrid.ocx=$(WinSysPath)
+C:\Check2Check\C2C.HLP=$(AppPath)
+C:\Check2Check\SUSAN SAMPLE.c2c=$(AppPath)
+C:\Check2Check\C2C.CNT=$(AppPath)
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Dep File 6|Configure Shared Files]
+Applicable=Yes
+C:\Check2Check\Check2Check.exe=No
+C:\WINDOWS\SYSTEM\GRID32.OCX=No
+C:\CheckH\C2C.HLP=No
+C:\My Documents\SUSAN SAMPLE.c2c=No
+C:\CheckH\C2C.CNT=No
+C:\Check2Check\C2C.HLP=No
+C:\Check2Check\C2C.CNT=No
+
+[Package|Dep File 6|Distribution]
+Type=single
+Size=1.44 MB
+Title=Check2Check Setup 3_2
+
+[Package|Dep File 6|DepFile]
+DepCabFile=3_2a
+DepCabRun=
+
+[Package|Dep File 6|IconGroups]
+Group0=Check2Check
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Dep File 6|Check2Check]
+Icon1=Check2Check.exe
+Title1=Check2Check
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 6|Package]
+PackageFolder=C:\Check2Check\setup_3_2 4-6-03
+ProjectFolder=C:\Check2Check
+ServerSideCab=
+File1=C:\Check2Check\setup_3_2 4-6-03\Check2Check.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 5|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Check2Check\setup_3_2 4-6-03
+
+[Package|Standard Setup Package 5|Configure DAO ISAMs]
+Applicable=No
+Jet 2.x=Yes
+
+[Package|Standard Setup Package 5|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 5|Files Found]
+C2C.CNT=C:\Check2Check\C2C.CNT
+
+[Package|Standard Setup Package 5|Files Released]
+susan sample.c2c=
+oc25.dll=
+USER.DLL=
+GDI.DLL=
+
+[Package|Standard Setup Package 5|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=
+C:\Check2Check\axGrid\axGrid.ocx=
+C:\WINDOWS\SYSTEM\axGrid.ocx=
+C:\WINDOWS\system32\axGrid.ocx=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+
+[Package|Standard Setup Package 5|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM\MSCAL.OCX=
+C:\Program Files\Microsoft Office\Office\MSCAL.OCX=
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=
+C:\WINDOWS\system32\comdlg32.ocx=
+
+[Package|Standard Setup Package 5|Files Added]
+c2c.cnt=
+
+[Package|Standard Setup Package 5|Files Removed]
+c:\program files\common files\microsoft shared\dao\dao350.dll=
+c:\windows\system\msjet35.dll=
+c:\windows\system\msjint35.dll=
+c:\windows\system\msjter35.dll=
+c:\windows\system\msrd2x35.dll=
+c:\windows\system\msrepl35.dll=
+e:\vb98\wizards\pdwizard\redist\msvcrt40.dll=
+c:\windows\system\vb5db.dll=
+c:\windows\system\vbajet32.dll=
+
+[Package|Standard Setup Package 5|Files In Project]
+C:\Check2Check\Check2Check.exe=Yes
+C:\WINDOWS\system32\Msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\Msflxgrd.ocx=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\Tabctl32.ocx=Yes
+C:\WINDOWS\system32\Mscomct2.ocx=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\axGrid.ocx=Yes
+C:\Check2Check\C2C.HLP=Yes
+C:\Check2Check\C2C.CNT=Yes
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 5|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 5|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 5|Install Locations]
+C:\Check2Check\Check2Check.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrepl35.dll=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\GRID32.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+E:\VB6\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB6\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\DAO350.DLL=$(MSDAOPath)
+E:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\CheckH\C2C.HLP=$(AppPath)
+C:\My Documents\SUSAN SAMPLE.c2c=$(AppPath)
+D:\VB60\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Check2Check\axGrid\axGrid.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSTEXT35.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\VB60\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\VB60\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\CheckH\C2C.CNT=$(AppPath)
+C:\WINDOWS\SYSTEM\axGrid.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\axGrid.ocx=$(WinSysPath)
+C:\Check2Check\C2C.HLP=$(AppPath)
+C:\Check2Check\SUSAN SAMPLE.c2c=$(AppPath)
+C:\Check2Check\C2C.CNT=$(AppPath)
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 5|Configure Shared Files]
+Applicable=Yes
+C:\Check2Check\Check2Check.exe=No
+C:\WINDOWS\SYSTEM\GRID32.OCX=No
+C:\CheckH\C2C.HLP=No
+C:\My Documents\SUSAN SAMPLE.c2c=No
+C:\CheckH\C2C.CNT=No
+C:\Check2Check\C2C.HLP=No
+C:\Check2Check\C2C.CNT=No
+
+[Package|Standard Setup Package 5|Distribution]
+Type=single
+Size=1.44 MB
+Title=Check2Check Setup 3_2  4-6-03
+
+[Package|Standard Setup Package 5|DepFile]
+DepCabFile=3_2a
+DepCabRun=
+
+[Package|Standard Setup Package 5|IconGroups]
+Group0=Check2Check
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 5|Check2Check]
+Icon1=Check2Check.exe
+Title1=Check2Check
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 5|Package]
+PackageFolder=C:\Check2Check\setup_3_2 4-6-03
+ProjectFolder=C:\Check2Check
+ServerSideCab=
+File1=C:\Check2Check\setup_3_2 4-6-03\setup.exe
+File2=C:\Check2Check\setup_3_2 4-6-03\Setup.Lst
+File3=C:\Check2Check\setup_3_2 4-6-03\Check2Check.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 7|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Check2Check\setup_3_3 4-6-03
+
+[Package|Dep File 7|Configure DAO ISAMs]
+Applicable=No
+Jet 2.x=Yes
+
+[Package|Dep File 7|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Dep File 7|Files Found]
+C2C.CNT=C:\Check2Check\C2C.CNT
+
+[Package|Dep File 7|Files Released]
+susan sample.c2c=
+oc25.dll=
+USER.DLL=
+GDI.DLL=
+
+[Package|Dep File 7|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=
+C:\Check2Check\axGrid\axGrid.ocx=
+C:\WINDOWS\SYSTEM\axGrid.ocx=
+C:\WINDOWS\system32\axGrid.ocx=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+
+[Package|Dep File 7|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM\MSCAL.OCX=
+C:\Program Files\Microsoft Office\Office\MSCAL.OCX=
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=
+C:\WINDOWS\system32\comdlg32.ocx=
+
+[Package|Dep File 7|Files Added]
+c2c.cnt=
+
+[Package|Dep File 7|Files Removed]
+c:\program files\common files\microsoft shared\dao\dao350.dll=
+c:\windows\system\msjet35.dll=
+c:\windows\system\msjint35.dll=
+c:\windows\system\msjter35.dll=
+c:\windows\system\msrd2x35.dll=
+c:\windows\system\msrepl35.dll=
+e:\vb98\wizards\pdwizard\redist\msvcrt40.dll=
+c:\windows\system\vb5db.dll=
+c:\windows\system\vbajet32.dll=
+
+[Package|Dep File 7|Files In Project]
+C:\Check2Check\Check2Check.exe=Yes
+C:\WINDOWS\system32\Msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\Msflxgrd.ocx=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\Tabctl32.ocx=Yes
+C:\WINDOWS\system32\Mscomct2.ocx=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\axGrid.ocx=Yes
+C:\Check2Check\C2C.HLP=Yes
+C:\Check2Check\C2C.CNT=Yes
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+
+[Package|Dep File 7|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 7|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 7|Install Locations]
+C:\Check2Check\Check2Check.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrepl35.dll=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\GRID32.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+E:\VB6\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB6\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\DAO350.DLL=$(MSDAOPath)
+E:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\CheckH\C2C.HLP=$(AppPath)
+C:\My Documents\SUSAN SAMPLE.c2c=$(AppPath)
+D:\VB60\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Check2Check\axGrid\axGrid.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSTEXT35.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\VB60\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\VB60\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\CheckH\C2C.CNT=$(AppPath)
+C:\WINDOWS\SYSTEM\axGrid.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\axGrid.ocx=$(WinSysPath)
+C:\Check2Check\C2C.HLP=$(AppPath)
+C:\Check2Check\SUSAN SAMPLE.c2c=$(AppPath)
+C:\Check2Check\C2C.CNT=$(AppPath)
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Dep File 7|Configure Shared Files]
+Applicable=Yes
+C:\Check2Check\Check2Check.exe=No
+C:\WINDOWS\SYSTEM\GRID32.OCX=No
+C:\CheckH\C2C.HLP=No
+C:\My Documents\SUSAN SAMPLE.c2c=No
+C:\CheckH\C2C.CNT=No
+C:\Check2Check\C2C.HLP=No
+C:\Check2Check\C2C.CNT=No
+
+[Package|Dep File 7|Distribution]
+Type=single
+Size=1.44 MB
+Title=Check2Check Setup 3_2  4-6-03
+
+[Package|Dep File 7|DepFile]
+DepCabFile=3_2b
+DepCabRun=
+
+[Package|Dep File 7|IconGroups]
+Group0=Check2Check
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Dep File 7|Check2Check]
+Icon1=Check2Check.exe
+Title1=Check2Check
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 7|Package]
+PackageFolder=C:\Check2Check\setup_3_3 4-6-03
+ProjectFolder=C:\Check2Check
+ServerSideCab=
+File1=C:\Check2Check\setup_3_3 4-6-03\Check2Check.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 6|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Check2Check\setup_3_3 4-6-03
+
+[Package|Standard Setup Package 6|Configure DAO ISAMs]
+Applicable=No
+Jet 2.x=Yes
+
+[Package|Standard Setup Package 6|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 6|Files Found]
+C2C.CNT=C:\Check2Check\C2C.CNT
+
+[Package|Standard Setup Package 6|Files Released]
+susan sample.c2c=
+oc25.dll=
+USER.DLL=
+GDI.DLL=
+
+[Package|Standard Setup Package 6|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=
+C:\Check2Check\axGrid\axGrid.ocx=
+C:\WINDOWS\SYSTEM\axGrid.ocx=
+C:\WINDOWS\system32\axGrid.ocx=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+
+[Package|Standard Setup Package 6|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM\MSCAL.OCX=
+C:\Program Files\Microsoft Office\Office\MSCAL.OCX=
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=
+C:\WINDOWS\system32\comdlg32.ocx=
+
+[Package|Standard Setup Package 6|Files Added]
+c2c.cnt=
+
+[Package|Standard Setup Package 6|Files Removed]
+c:\program files\common files\microsoft shared\dao\dao350.dll=
+c:\windows\system\msjet35.dll=
+c:\windows\system\msjint35.dll=
+c:\windows\system\msjter35.dll=
+c:\windows\system\msrd2x35.dll=
+c:\windows\system\msrepl35.dll=
+e:\vb98\wizards\pdwizard\redist\msvcrt40.dll=
+c:\windows\system\vb5db.dll=
+c:\windows\system\vbajet32.dll=
+
+[Package|Standard Setup Package 6|Files In Project]
+C:\Check2Check\Check2Check.exe=Yes
+C:\WINDOWS\system32\Msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\Msflxgrd.ocx=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\Tabctl32.ocx=Yes
+C:\WINDOWS\system32\Mscomct2.ocx=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\axGrid.ocx=Yes
+C:\Check2Check\C2C.HLP=Yes
+C:\Check2Check\C2C.CNT=Yes
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 6|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 6|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 6|Install Locations]
+C:\Check2Check\Check2Check.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrepl35.dll=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\GRID32.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+E:\VB6\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB6\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\DAO350.DLL=$(MSDAOPath)
+E:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\CheckH\C2C.HLP=$(AppPath)
+C:\My Documents\SUSAN SAMPLE.c2c=$(AppPath)
+D:\VB60\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Check2Check\axGrid\axGrid.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSTEXT35.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\VB60\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\VB60\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\CheckH\C2C.CNT=$(AppPath)
+C:\WINDOWS\SYSTEM\axGrid.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\axGrid.ocx=$(WinSysPath)
+C:\Check2Check\C2C.HLP=$(AppPath)
+C:\Check2Check\SUSAN SAMPLE.c2c=$(AppPath)
+C:\Check2Check\C2C.CNT=$(AppPath)
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 6|Configure Shared Files]
+Applicable=Yes
+C:\Check2Check\Check2Check.exe=No
+C:\WINDOWS\SYSTEM\GRID32.OCX=No
+C:\CheckH\C2C.HLP=No
+C:\My Documents\SUSAN SAMPLE.c2c=No
+C:\CheckH\C2C.CNT=No
+C:\Check2Check\C2C.HLP=No
+C:\Check2Check\C2C.CNT=No
+
+[Package|Standard Setup Package 6|Distribution]
+Type=single
+Size=1.44 MB
+Title=Check2Check Setup 3_3  4-6-03
+
+[Package|Standard Setup Package 6|DepFile]
+DepCabFile=3_2b
+DepCabRun=
+
+[Package|Standard Setup Package 6|IconGroups]
+Group0=Check2Check
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 6|Check2Check]
+Icon1=Check2Check.exe
+Title1=Check2Check
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 6|Package]
+PackageFolder=C:\Check2Check\setup_3_3 4-6-03
+ProjectFolder=C:\Check2Check
+ServerSideCab=
+File1=C:\Check2Check\setup_3_3 4-6-03\setup.exe
+File2=C:\Check2Check\setup_3_3 4-6-03\Setup.Lst
+File3=C:\Check2Check\setup_3_3 4-6-03\Check2Check.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 8|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Check2Check\setup_3_4_005
+
+[Package|Dep File 8|Configure DAO ISAMs]
+Applicable=No
+Jet 2.x=Yes
+
+[Package|Dep File 8|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Dep File 8|Files Found]
+C2C.CNT=C:\Check2Check\C2C.CNT
+
+[Package|Dep File 8|Files Released]
+susan sample.c2c=
+oc25.dll=
+USER.DLL=
+GDI.DLL=
+
+[Package|Dep File 8|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=
+C:\Check2Check\axGrid\axGrid.ocx=
+C:\WINDOWS\SYSTEM\axGrid.ocx=
+C:\WINDOWS\system32\axGrid.ocx=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+C:\WINDOWS\system32\Mscomct2.ocx=
+
+[Package|Dep File 8|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM\MSCAL.OCX=
+C:\Program Files\Microsoft Office\Office\MSCAL.OCX=
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=
+C:\WINDOWS\system32\comdlg32.ocx=
+
+[Package|Dep File 8|Files Added]
+c2c.cnt=
+
+[Package|Dep File 8|Files Removed]
+c:\program files\common files\microsoft shared\dao\dao350.dll=
+c:\windows\system\msjet35.dll=
+c:\windows\system\msjint35.dll=
+c:\windows\system\msjter35.dll=
+c:\windows\system\msrd2x35.dll=
+c:\windows\system\msrepl35.dll=
+e:\vb98\wizards\pdwizard\redist\msvcrt40.dll=
+c:\windows\system\vb5db.dll=
+c:\windows\system\vbajet32.dll=
+
+[Package|Dep File 8|Files In Project]
+C:\Check2Check\Check2Check.exe=Yes
+C:\WINDOWS\system32\Msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\Msflxgrd.ocx=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\Tabctl32.ocx=Yes
+C:\WINDOWS\system32\Mscomct2.ocx=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\axGrid.ocx=Yes
+C:\Check2Check\C2C.HLP=Yes
+C:\Check2Check\C2C.CNT=Yes
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+
+[Package|Dep File 8|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 8|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 8|Install Locations]
+C:\Check2Check\Check2Check.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrepl35.dll=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\GRID32.OCX=$(AppPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+E:\VB6\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB6\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\VB6\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\DAO350.DLL=$(MSDAOPath)
+E:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\SoftGuard6.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\CheckH\C2C.HLP=$(AppPath)
+C:\My Documents\SUSAN SAMPLE.c2c=$(AppPath)
+D:\VB60\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Check2Check\axGrid\axGrid.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSTEXT35.DLL=$(WinSysPathSysFile)
+D:\VB60\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\VB60\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\VB60\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\CheckH\C2C.CNT=$(AppPath)
+C:\WINDOWS\SYSTEM\axGrid.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\axGrid.ocx=$(WinSysPath)
+C:\Check2Check\C2C.HLP=$(AppPath)
+C:\Check2Check\SUSAN SAMPLE.c2c=$(AppPath)
+C:\Check2Check\C2C.CNT=$(AppPath)
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Dep File 8|Configure Shared Files]
+Applicable=Yes
+C:\Check2Check\Check2Check.exe=No
+C:\WINDOWS\SYSTEM\GRID32.OCX=No
+C:\CheckH\C2C.HLP=No
+C:\My Documents\SUSAN SAMPLE.c2c=No
+C:\CheckH\C2C.CNT=No
+C:\Check2Check\C2C.HLP=No
+C:\Check2Check\C2C.CNT=No
+
+[Package|Dep File 8|Distribution]
+Type=single
+Size=1.44 MB
+Title=Check2Check Setup 3_3  4-6-03
+
+[Package|Dep File 8|DepFile]
+DepCabFile=3_4_005
+DepCabRun=
+
+[Package|Dep File 8|IconGroups]
+Group0=Check2Check
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Dep File 8|Check2Check]
+Icon1=Check2Check.exe
+Title1=Check2Check
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 8|Package]
+PackageFolder=C:\Check2Check\setup_3_4_005
+ProjectFolder=C:\Check2Check
+ServerSideCab=
+File1=C:\Check2Check\setup_3_4_005\Check2Check.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

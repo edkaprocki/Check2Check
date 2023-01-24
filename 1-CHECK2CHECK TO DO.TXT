@@ -1,0 +1,1100 @@
+Check 2 Check - Things to do
+----------------------------
+Where is the notes.text saved to the proper array element?
+What about all the undo notes and do I need an undo misc notes?
+
+I have been using the trial version of this program and it is a great one. The next version, if you have time, I really like to see a few options such as year-to-date for expense or deposit, grand expense and deposit totals for one file, and quick fill for the "name" column.
+telock
+
+2checkout.com
+
+checksum program
+
+blowfish modules
+
+- do checksum at some random time after startup
+- do blowfish at startup
+- add email to the php script
+- add referer to the php script
+- get an account with c2checkout
+- try to use a redirect link on the c2c purchase web site
+
+
+
+Notes on paste
+If single or selected transactions are pasted into the same month after a copy then mark as pending
+If single or selected transactions are pasted into the next month after a copy then mark as pending
+If single or selected transactions are pasted into the same month after a cut then mark as intact
+If single or selected transactions are pasted into the next month after a cut then mark as intact
+
+Mark as pending if pasting after a copy
+Mark as intact if pasting after a cut
+
+
+	--- Languge -- Forms converted 
+x	Balances form
+x	Main form
+x	Tags form
+x	Filter form
+x	Ct summary form
+	Card data form
+--	Cardtrak info form
+--	Calendar form
+x	Edit transaction form
+x	Quick accounts/view edit form
+--	Quick save form  -- not used
+x	Reconcile form
+x	Preferences form
+x	Password form
+X	Register form
+	
+	
+x	1 - Translate the card data form and menus
+	1 - Bill reminder
+	1 - Check the language for all the entries in the new edit menu
+	1 - Have delete button delete all selected transactions
+	1 - Put in the version number in the check for new version
+	1 - When doing a "new" have it prompt for an initial balance
+	1 - Make the setup disk
+?	1 - Add msstdfmt.dll to the install to fix the password runtime error
+	1 - Add any sound dlls to the install
+	1 - Merge the Copy/paste single and selected
+	
+	1 - Spanish tool tips?
+	1 - Sometimes the tag number goes away
+	1 - Once the cleared bit changed to uncleared
+x	1 - For european format put the dd/mm/yy format instead of mm/dd/yy
+x	1 - Add sound effects on data entry
+	
+	2 - Always have a blank line on every date so people know where to enter a new trans on a used date
+	2 - Add a Lock Month 
+	2 - Add a prompt for edit transaction if it is marked as done
+	2 - Add expiration date to card names
+	2 - Make a simple/advanced menu
+	2 - Make the right click menu shorter
+	2 - Need a pending amount saved - this will show the saved amount if the pending items are done
+
+	3 - Summary listing for the whole year
+	3 - Add some yellow color to the spiral bar on the left
+	3 - Prompt on changing any reconciled or done transactions
+	3 - When in the notes screen use Control A for select all
+	3 - Maybe keep the viewed month the same as you scroll left and right
+	3 - Autoincrement a control number in the notes box - 
+
+	4 - Change cursor when over buttons
+	4 - Be able to search on the notes
+	4 - Novice/Expert modes for right click menu
+	4 - Add some graphs
+	4 - Add MDI interface
+	
+
+x	2 - Make an option to automatically reload the last file
+x	2 - Restart in last language
+--	1 - Change the tab order for entering the card track info
+x	2 - Make a button to go to the top of next month and a button to go to bottom of previous month
+x	2 - Add buttons to go to the top and bottom of month
+x	1 - Notes font size doesn't work
+x	1 - Tool tip for Quick button shows View summary instead of View Quick Account
+x	1 - When editing an amount use the sign of the incoming number, i.e. make a positive number pos
+x	1 - Add wheel mouse scrolling
+x	1 - Need a place for addresses, maybe just 1 window for general notes - Maybe use card(0) for general notes
+x	1 - When 3 transactions are on the 1st of the month and copy month and paste only pastes 2 of them
+x	2 - Send IP and email address when checking for new version
+x	2 - Change the price to $19.95
+x	2 - Add a clear filter button on the filter screen
+x	2 - Autoincrement check number
+x	1 - Display current date someplace
+x	1 - Make all quick save and deposits as cleared
+x	3 - Add a C2C Web site access menu item under help
+x	1 - Add credit card balances
+x	3 - Add information to the about box
+x	3 - Double click on the current date labels brings us back to the current month view
+-	2 - Prompt for delete selected transactions
+x	1 - Cardtrak printing
+x	1 - What did matt mean about ct screen should be on top? 2 second delay
+-	2 - Align cardtrak printout names to the left
+x	2 - Make cardtrak filename smaller on printout
+	2 - When multiple selects then disable the single transaction menu items and vice versa
+	
+	1 - Do I do an unload on the main form when I exit?
+x	2 - Show the current reference number above the buttons in the notes
+	1 - Put in an automatic save every so many minutes
+x	2 - Show the date of the first and last transaction somewhere - on help screen
+x	2 - On CT screen the timer times out and makes the focus shift from a combo box - happens when a trans is entered on the main screen
+x	1 - Moving selected caused a trans to be marked as pending
+x	1 - Put in drop down combo for Est Balance
+x	1 - Shorten the Est Balance to Est Bal
+	1 - Clear All on CT form should clear all payment fields too
+x	1 - On check for new version send:
+x		current date (string)
+x		date of install (integer)  52877
+x		valid registration (string)
+x		regcode (string)
+x		startup count (integer)
+x		number of records (integer)
+x		number of note records (integer)
+x		number of printouts (integer)
+x		name (string)
+		
+		
+		
+	
+	
+----- For help writers assistant -----
+	Reference number
+	New buttons on notes
+	Explain how reference numbers work - What is a reference number?
+	Insert Reference Number menu item
+	
+	----- Tips & Tricks -----
+	- Useing tag for normal monthly, atm, credit cards and then copy tags, paste tags into next month
+	
+	
+	
+x	When on the bottom row don't scroll the rows back up
+x	In reconcile mode be able to sort by date, not just by check number
+x	When pasting don't automatically set the status and cleared column
+x		Add a paste pending menu item
+x		Change the paste to paste intact
+-		Remove the paste clear
+?	Finish up the quick save stuff
+-	Right click on balance boxes will let you paste text
+-	Typing G in font size causes an error
+x	paste month options should only be options and not entry
+x	don't open non-c2c files
+x	reconcile will cause an error in the open balance box with text
+x	change password to encrypt it
+x	don't put qv on top window
+x	Typing in and then click on another cell in QV will copy the text
+x	can edit name in qs
+x	asks to save after qs
+x	reconcile form icon
+x	vb icon on password form
+
+----- CardTrack -----
+  Menu items
+x	file
+x	  save
+x	  exit (ok) (Save)
+x	  Cancel
+	
+	Edit
+x	  next month
+x	  prev month
+x	  new card
+x	  delete card
+x	  paste data into current month
+x	  copy data to next month (prompt for overwrite if it exists)
+	
+	view
+	
+	
+  Handle multiple payments per month - Up to 10
+  	Add a payment number 0-9 for each month
+  Name format "cc05a: MBNA credit card"
+  
+
+  
+
+  20 Credit cards
+
+  Up to 100 transactions
+x    Name
+x    Amount  
+x    Date
+x    Date posted
+    
+
+x  Total balance
+x  Previous balance
+x  Total interest
+x  Total charges
+x  Total payments
+x  Late charge
+  Show qty transactions charges
+  Show qty payments
+  
+  Payment Information
+x    Due date
+x    Paid date
+x    Due amount
+x    Paid amount
+x    Check number
+
+  Status Information
+x    Status
+x    Tags
+x    cleared
+
+
+  Up to 10 interest rates
+xx    Name
+xx    Balance
+xx    interest rate
+xx    amount payments
+xx    amount charged
+xx    interest charged
+  
+--  Payoff time given an entered amount
+  Notes
+  
+  Select a card to go to from a list
+  Be able to go to the next card easily
+  Keep track on a month to month basis
+  Apply the summary to a specific date on the main screen
+
+  Card information
+x    Name
+x    Number
+x    Mailing Address
+x    Phone
+x    Notes
+x    Total credit limit
+x    Purchase credit limit
+x    Cash advance credit limit
+    
+    
+  ----- Summarize all credit cards -----
+    Total balance
+    Total interest
+    Total charges
+    Total payments
+    Total due
+    Total paid
+    Total Late charges
+    Total previous balance
+    Total net balance
+    Payoff time given an entered amount?
+    Average interest rate
+    Sort in various ways
+    Show qty transactions charges
+    Show qty payments
+
+
+Cardtrak Misc
+- When a trans is deleted, check to see if it's a CT. If yes then prompt for delete the CT trans also if it's a valid CT number
+- On entry
+	Make a working copy of THIS
+	Validate the CT number
+	If new, then create a new CT trans
+	If existing, then check for valid CT trans and if yes then edit it, if not valid or new then create a new CT trans
+	Make a working copy of CT trans THIS_CT
+	
+- During Operation
+	If changing card info then on card info change (i.e. leaving that tab) prompt to change card info
+	Allow the CT number to change if they want by selecting a new card but don't change data
+	No undo information since it's prompted
+	
+- On exit and OK hit
+	Maybe prompt to save data transaction
+	Copy data from THIS_CT to THIS, data, sub_transaction number
+	Save the THIS_CT and THIS
+	Set the active flag
+
+
+
+
+
+
+
+
+
+	- Add Recurring transactions
+	- Add Low balance notice
+xx	- Add Help files
+xx	- Show an ontop form with all the month balances and highs and lows
+	- Add Search for transaction / notes
+xx	- Add undo
+xx	- Be able to select multiple transactions for copy month
+
+	- Make a "backup to floppy" menu item
+	- Add a status line which shows modified, etc., also show the mode (i.e. editing, etc) and what they can do (Hit enter to save)
+xx	- Add a calculator control
+xx	- Clicking the notes button when entering an amont left the text box in the notes window
+	- Maybe show names in bold that have not been done and not excluded
+	- Be able to copy data to clipboard so it can be pasted in another instance of c2c
+xx	- Maybe make a tag column so we can copy, cut, or delete
+	- Don't print in bold type
+xx	- Clicking a transaction should hightlight it
+
+xx	- Change the done column to accept numbers like "must do", "wait", etc.
+--	- Entering a check number then clicking on another field should log it but it doesn't
+xx	- After automarking done go to the check column
+xx	- Add a preference for auto check done when entering a check
+xx	- Preference for auto negative numbers
+??	- Add registration
+xx	- When editing a name the control x, v, c should act on text, not the transaction
+xx	- Hide the undo following the new command
+xx	- Can't double click on the exclude amount to edit
+xx	- Hyperlink to C2C buynow site
+xx	- Hyperlink to C2C web site
+xx	- Hyperlink to support@C2C.com
+xx	- Change Exc to Excl or some other name
+??	- See if the Day column header has a 5 in it
+xx	- Typing when it's not highlighted should not overwrite it
+xx	- Record the full path of all opened files in the recent list
+??	- Sometimes an empty month doesn't show the beginnning and ending balance right
+xx	- When cutting a transaction it will prompt for delete
+xx	- Prompt for cutting and pasting a month doesn't cut and paste the notes
+xx	- Add a paste w/clear
+xx	- Add a paste month w/clear
+xx	- Auto check done will check the done when the check or name is entered
+xx	- Make the check column a number but if left blank then -1 is inserted
+--	- When moving a transaction then copy the done and check fields
+--	- When copying a transaction to clipboard don't copy the done and check fields
+--	- When copying a month don't copy the done and check number fields
+xx	- Add edit toggle done, exc, or override and an Enter should compliment it
+??	- Add a check number column
+xx	- Display 0 for beginning balance if before the first record date
+??	- Make clicking on the calendar go to that date
+--	- Add shortcut keys
+--	- Control A should select all notes
+xx	- Print multiple copies when selected
+xx	- Add prompt for delete option
+xx	- Show checks by transactions and notes in menu
+xx	- View override columns preference
+xx	- Option to check the done box when an amount is entered
+--	- Allow column resizing
+--	- Move the changed asterisk behind the file name
+xx	- Don't insert a new line when the current line is blank
+xx	- Change Bal to Balance in 2 places on the form
+xx	- Center the headings on the form
+xx	- Maybe make the names in the same colors as the balance - Preferences
+xx	- Center dots on printout
+xx	- When c2c starts up the caption on main form doesn't show the right version and date
+xx	- Increase splash screen time
+xx	- Add a show splash screen config item
+??	- When saving to A you should be able to type a: in the filename box
+xx	- Add a splash screen
+xx	- Check printing to a different printer, e.g. fineprint
+xx	- Add preferences
+xx	- Add save/load preferences
+xx	- Add a program icon
+xx	- Do something about when changing the amount it inserts a new line
+xx	- Change green zero number in start and end balance box
+--	- When adding a new record and going to the name on the
+		next record use the same date then if nothing is
+		entered delete the line
+xx	- Using a number in the name col right justifies it
+xx	- If a c2c file doesn't exist it bombs
+xx	- Replace green with black for zero numbers
+--	- Don't show screen numbers in bold type
+xx	- Recent when opening a file on D showed C
+xx	- Ask for prompt for move 
+xx	- Show the month beginning and ending balance on the printout
+xx	- Make the title for a new file "Untitled"
+xx	- When I exit a file that was loaded on the command line it asked for save?
+xx	- Display the check mark for exclude, etc.
+xx	- Make exclude also exclude the override column
+xx	- Don't allow tabbing to invalid columns
+xx	- Make Control c, v, x work as they should with a flag for notes/transactions
+xx	- Printing
+??	- Be able to cut and copy notes
+xx	- Modifying notes doesn't prompt to save the file
+xx	- Change all the amount references from single to double precision
+xx	- Put the last opened file in the document history
+xx	- Put c2c in the file type association
+xx	- Be able to open a c2c file with the open command
+xx	- Keep the calendar on top
+xx	- Add history
+--	- Don't display the full path name on the title bar
+??	- When I hit save and don't enter a filename it errors
+xx	- Paste page should clear the done column
+xx	- Beginning and ending balance doesn't show for blank months
+--	- Change the tabs from 1999 to '99
+xx	- Implement include column
+xx	- Implement done column
+xx	- Add copy to clipboard
+xx	- Add paste
+xx	- Add cut
+xx	- Add copy month
+xx	- Add cut month
+xx	- Add paste month
+xx	- When canceling out an open file and mods have been made it will
+xx		reload the file
+xx	- After an insert and delete the date is not bold font
+xx	- Can't re-edit a name or amount field
+xx	- Implement override column
+xx	- Implement override balance column
+xx	- Put the file open title on the title bar
+xx	- If data base has been changed then put a star on the title bar
+??	- When a file is opened it will sometimes switch to the summary tab
+xx	- Put a * after the filename if the database has changed
+xx	- SPEED UP Table drawing
+
+
+
+
+================ Cardtrak things ===============
+	----- Main module -----
+x	When pasting a ct trans into a new date then blank out the subtransaction field unless it's a cut/paste
+	When defining the first new card then automatically select that one as the default card
+x	When deleting a ct trans delete it from the st db if the subtransaction field is > 0 and set the subtrans to 0
+	File new should clear out all cards?
+	During process if the ct trans is done then save the interest in the cards interest
+	During process save the done amount for all ct's in the selected card
+	During process save things such as balance in the cards_info db along with other stuff like interest string
+x	When deleting a trans then also delete the associated ct trans if there is one - Always prompt if there is one
+x	Handle trans moving, cutting, copying
+	Show/Hide the main cardtrak menu items as necessary
+x	Where does Undo fit into cardtrak?
+
+xx	When going into ct screen if it's a new trans then have it go to tab one
+xx	When going into ct screen and there are no cards defined then go to tab 1
+	
+	
+	----- CT module -----
+-	Show the balance on the card selection screen?
+	When ct form comes up into tabs 2 then auto select the previous balance box
+	Up and down arrow on the balance boxes should take you there
+x	Select a card also by double clicking the card name
+-	Once I hit the up arrow when entering a transaction and it moved the line down
+	Clear out all fields and boxes on form activate
+	When a new card is selected then copy the interest rates to the current table
+
+xx	After hitting Add new card it should immediately be ready to type in a name
+xx	After typing in a new card name and hitting enter it should go to the account field
+--	Hide the ok button unless a card has been selected
+--	Save the card info on exit from info box
+xx	On clicking a new card row then put up the information below
+xx	On card name grid row or col change then save the table
+xx	Date Paid box needs to be grayed out since you can't edit it
+xx	Don't allow focus to Data Paid box
+xx	On entry if no cards selected then automatically use a default of card 1 but don't create one
+xx	When a card is deleted then put up a prompt to delete card and don't delete any transactions
+xx	Amount paid number should always be negative
+xx	When a card is added then put the active cell on that new name
+xx	Implement Clear Transaction
+xx	Implement Clear Interest
+xx	Implement Clear All
+xx	Hide the delete key if no cards defined
+xx	Hide the select key if no cards defined
+xx	On a valid check number entry then mark it as done
+xx	Blank out the incoming transaction name unless the new one changes then show it
+xx	When editing trans and interest make it go to the next column after enter
+xx	Add menu card new, delete, add, etc
+xx	Be able to convert a non-ct trans to a ct trans
+xx	If the ct form has changed then prompt for a cancel
+xx	Add cards menu click
+xx	Add cards doesn't hide other tabs
+xx	Double clicking a ct trans doesn't bring it up 
+xx	Enable/Disable the the ct menu items depending on the row that it's on
+xx	When the select button is hit then put up the original card name text
+xx	Be able to copy the incoming name label and paste it into the name
+xx	Add new cards show mill creek in name box
+-	Undo insert?
+x	Undo delete
+x	Undo move 
+x	Undo cut
+x	Undo paste
+x	Undo paste month
+x	Undo cut selected
+x	Undo cut month
+x	----- Delete rules -----
+x	When moving a trans there is nothing to do to the ct db
+x	When cutting a trans then copy all the ct trans data to the undo buffer and free up the ct trans
+x	When pasting a trans then find a slot for the ct trans and put it there and adjust pointers	
+x	Set allow_paste_ct to false after the first paste so the ct data won't be pasted again
+x	When copying a trans then set allow_paste_ct to true
+x	undo cut selected works
+x	undo move selected doesn't work
+x	ct summary screen should only shows cards for the active month
+	Mark which data types affect the file type - Huh? What does this mean?
+x	When I added a new nelnet it marked it as cleared
+x	Show the ct summary form modal and be able to process and select a new month from within it 	
+x	When resizing the name col then shrink the other columns to make room for it
+x	Show the cardtrak test tab when the help/debug has been selected
+x	Show the ct transactions in the test grid with dates
+x	----- For summary screen show -----
+x	last 12 month history
+x	all active cards 
+x	graphs
+x	----- For monthly balance form -----
+x	Do during process
+x	Keep the balance for the previous 12 months
+x	Keep the balance of each of the 20 cards
+x	For each done card store and show the following
+x	  CT number
+x	  Name
+x	  balance - use the one from the last date in the month
+x	  total purchases
+x	  total interest
+x	  total amount paid
+x	  total finance charges
+x	  total late charges
+x	  total minimum amount due
+x	  total estimated balance
+x	total up the columns on the form
+
+
+
+
+
+Words DLL
+---------
+	Use the format CHECK_N
+	Use words (CHECK_N) and return the string
+	
+	public words_get_font () as string
+	public words_set_language (n as integer)
+	public words_get_language () as integer
+	
+	
+File = Archivo
+Edit = Editar
+Checkbook = Chequera (Talonario de Cheques)
+View = Ver
+Help = Ayuda
+Transactions = Transacciones
+Notes = Notas
+Prev Month = Mes Ant
+Next Month = Mes Prox
+Balance = Balance
+Beginning = Principio
+Ending = Final
+Date= Fecha
+Day = Día
+Due = Debido  -- too long
+Check = Cheque
+Name = Nombre
+Status = Estado
+Amount = Cantidad
+??Excl =   Excluir  -- too long
+??Tags-1 = Etiquetas-1 -- too long
+CLR = CLR
+	
+	
+	
+Undo - Cut Selected
+Undo - Cut 
+Undo Edit Transaction
+Undo - Cut transaction
+Undo - Delete transaction
+File not found
+File length is zero
+Undo - Paste transaction
+Undo - Move transaction
+Undo - Paste
+Undo - Paste and clear
+Undo - Move Selected
+January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+Nov
+Dec
+Mon
+Tue
+Wed
+Thu
+Fri
+Sat
+Sun
+Withdrawal
+Deposit
+Cancel
+OK
+Clear Filter
+Filter
+Reconcile Checkbook
+Bank Statement
+Beginning Balance
+Ending Balance
+Cleared Balance
+Difference
+Deposits
+Checks
+Withdrawals
+Show All
+Number
+Finish
+Finish Later
+Cleared Transactions
+Are you sure?
+Quick Accounts -View/Edit
+Due Date
+Amount Needed
+Total Saved
+Amount Saved
+Pending Amount
+Credit Card
+Payment
+Add New Card
+Card Name
+Name/Address/Phone Numbers/Credit Limits/Comments
+Finance Information
+Previous Balance
+Purchases & Advances
+Payments & Credits
+Finance Charges
+Late Charges
+Current Balance
+Payment Information
+Date Due
+Amount Due
+Date Paid
+Amount Paid
+Check Number
+Posted
+Interest
+Rate %
+Charges
+Clear Transactions
+Clear Interest
+Clear All
+Delete Card
+Delete All Cards
+Save
+Save Changes?
+Yes
+No
+Low
+High
+Average
+Purchases
+Paid
+Late
+Minimum
+Est Balance
+High/Low
+Begin/End
+Detailed Summary
+Register
+Purchase Information
+Run Check2Check
+Code
+Not enough information entered
+
+
+	
+	
+	
+Private Sub card_name_grid_EnterCell()
+  ' We just entered a cell so get the card number and display the info
+  With card_name_grid
+    info_card_number = Val(.TextMatrix(.row, 0))
+    update_card_info
+  End With
+End Sub
+
+Private Sub card_name_grid_LeaveCell()
+  Dim n As Integer
+  ' Save the data from the current cell
+  ' Only do this if we previously clicked the grid
+  If (card_name_clicked = True) Then
+    With card_name_grid
+      n = Val(.TextMatrix(.row, 0))
+      If (.Col = 1) Then cards_info(n).name = .Text
+      If (.Col = 2) Then cards_info(n).account = .Text
+    End With
+  End If
+End Sub
+
+Private Sub card_name_grid_LostFocus()
+  'card_name_clicked = False
+End Sub
+
+Private Sub card_name_grid_Validate(Cancel As Boolean)
+  ' We are getting ready to leave the grid so save the row and column
+  last_row = card_name_grid.row
+  last_column = card_name_grid.Col
+  last_card = Val(card_name_grid.TextMatrix(card_name_grid.row, 0))
+  Cancel = False
+End Sub
+
+Private Sub txtEdit_LostFocus()
+  ' We just switched out of this text box so save the text
+  txtedit.Visible = False
+  With card_name_grid
+    .TextMatrix(last_row, last_col) = txtedit
+    If (last_col = 1) Then cards_info(last_card).name = txtedit
+    If (last_col = 2) Then cards_info(last_card).account = txtedit
+  End With
+End Sub
+
+
+	
+	
+	
+Private Sub finance_box_LostFocus(Index As Integer)
+  Dim d As Double
+  
+    If (Index = 0) Then local_card.previous_balance = finance_box(Index)
+    If (Index = 1) Then local_card.total_purchases = finance_box(Index)
+    If (Index = 2) Then local_card.total_payments = finance_box(Index)
+    If (Index = 3) Then local_card.total_interest = finance_box(Index)
+    If (Index = 4) Then local_card.total_late = finance_box(Index)
+    If (Index = 5) Then local_card.new_balance = finance_box(Index)
+    If (Index = 6) Then local_card.date_due = finance_box(Index)
+    If (Index = 7) Then local_card.amount_due = finance_box(Index)
+    'If (index = 8) Then local_card.date_paid = finance_box(index)
+    If (Index = 8) Then local_card.amount_paid = finance_box(Index)
+    
+    update_display
+  Exit Sub
+  
+error_h:
+  MsgBox ("Invalid number entered")
+
+End Sub
+
+Private Sub finance_box_GotFocus(Index As Integer)
+  finance_box(Index).SelStart = 0
+  finance_box(Index).SelLength = 100
+End Sub
+
+
+Private Sub finance_box_KeyDown(Index As Integer, KeyCode As Integer, Shift As Integer)
+  If (KeyCode = vbKeyReturn) Then
+    If (Index < 9) Then finance_box(Index + 1).SetFocus
+  End If
+End Sub
+
+
+Private Sub finance_box_Validate(Index As Integer, Cancel As Boolean)
+
+End Sub
+
+
+
+
+Private Sub text_fix_button_Click()
+  Dim i As Integer
+  Dim ct_num As Integer
+  Dim deleted_count As Integer
+  Dim changed_count As Integer
+  
+  changed_count = 0
+  deleted_count = 0
+  
+  With test_grid
+    ' Clear out all the active first
+    'For ct_num = 1 To MAX_CARD_TRANSACTIONS
+    '  cards(ct_num).active = False
+    'Next ct_num
+    
+    ' Scan through the entire main db and find matches for the ct transactions
+    For i = 0 To MAX_DATA_TABLE
+      If (db(i).this >= 0) And (db(i).sub_transaction_number > 0) Then
+        ' We found a matching transaction
+        ct_num = db(i).sub_transaction_number
+        cards(ct_num).active = True
+        cards(ct_num).main_this = db(i).this
+      End If
+    Next i
+    
+    For i = 1 To MAX_CARD_TRANSACTIONS
+      ' Loop through all the card transactions and if they don't point to an active main then delete it
+      If (cards(i).active) And (db(cards(i).main_this).this < 0) Then
+        ' The card is active but the main db record is not so delete the ct trans
+        cards(i).active = False
+        deleted_count = deleted_count + 1
+      End If
+    Next i
+    
+  End With
+  
+  If (deleted_count > 0) Then MsgBox (Format(deleted_count) + " CT records deleted")
+End Sub
+
+	
+	  ' See if the file exists
+	  n = GetAttr(s1)
+	  If (Dir(s1) = "") Then
+	    s1 = MsgBox("File not found", vbOK + vbInformation, "Error")
+	    read_database = False
+	    Exit Function
+	  End If
+	  
+
+
+
+
+
+
+Home
+
+Source code to write direct to the desktop in VB3:
+
+
+Open Visual Basic, Form1 created as default.
+Put a PictureBox on the form.
+Make sure it is called Picture1.
+Put a bitmap in the PictureBox.
+In Form_Load , put the following.
+	
+	
+	Dim ImgWidth as Integer
+	Dim ImgHeight as Integer
+	DIM ImgX%, ImgY%, Dmy%
+
+    	ImgWidth = Picture1.ScaleWidth
+    	ImgHeight = Picture1.ScaleHeight
+	
+	ImgX% = 0  
+	ImgY% = 0
+
+    	hwndSrc% = 0
+    	hSrcDC% = GetDC(hwndSrc%)      'same as GetDc(Null)
+    	res% = BitBlt(hSrcDC%, ImgX%, ImgY%, ImgWidth, ImgHeight, Picture1.hDC, 0, 0, SRCCOPY)
+    	Dmy% = ReleaseDC(hwndSrc%, hSrcDC%)  ' IMPORTANT release resources back to windows
+
+
+
+In Declarations section of Form1 put the following Declares.
+
+Declare Function GetDC Lib "User" (ByVal hWnd%) As Integer
+Declare Function BitBlt Lib "GDI" (ByVal hDestDC%, ByVal x%, ByVal y%, ByVal nWidth%, ByVal nHeight%, ByVal hSrcDC%, ByVal XSrc%, ByVal YSrc%, ByVal dwRop&) As Integer
+Declare Function ReleaseDC Lib "User" (ByVal hWnd As Integer, ByVal hDC As Integer) As Integer
+Const SRCCOPY = &HCC0020 
+
+
+Ok.
+Click on Run,  What happens ? 
+Your PictureBox is copied to the desktop at the values ImgX%, ImgY%.
+In this case that is 0,0 or the topleft corner of the Desktop.
+Your image is not there permanently however, as soon as the Desktop is
+refreshed it will disappear.
+If you want it to persist, you will have to keep putting the image back.
+
+-
+
+
+
+----------------------------------------------------------------------
+  'w1 = fTwipsToPixels(print_form.pic.width, DIRECTION_HORIZONTAL)
+  'w2 = fTwipsToPixels(Frame1.width, DIRECTION_HORIZONTAL) + 10
+  'BitBlt print_form.pic.hdc, (w1 - w2) / 2, y, _
+  '          fTwipsToPixels(Frame1.width, DIRECTION_HORIZONTAL) + 10, _
+  '          fTwipsToPixels(Frame1.height, DIRECTION_VERTICAL) + 5, _
+  '          ct_summary_form.hdc, _
+  '          fTwipsToPixels(Frame1.Left, DIRECTION_HORIZONTAL) - 5, _
+  '          fTwipsToPixels(Frame1.Top, DIRECTION_VERTICAL), _
+  '          &HCC0020
+  
+  'w1 = fTwipsToPixels(Printer.width, DIRECTION_HORIZONTAL)
+  'w2 = fTwipsToPixels(Frame1.width, DIRECTION_HORIZONTAL) + 10
+  'BitBlt Printer.hdc, (w1 - w2) / 2, y, _
+  '          fTwipsToPixels(Frame1.width, DIRECTION_HORIZONTAL) + 10, _
+  '          fTwipsToPixels(Frame1.height, DIRECTION_VERTICAL) + 5, _
+  '          ct_summary_form.hdc, _
+  '          fTwipsToPixels(Frame1.Left, DIRECTION_HORIZONTAL) - 5, _
+  '          fTwipsToPixels(Frame1.Top, DIRECTION_VERTICAL), _
+  '          &HCC0020
+  
+  'p.width = Frame1.width
+  'p.height = Frame1.height
+  'BitBlt p.hDC, 0, 0, Frame1.width, Frame1.height, ct_summary_form.hDC, _
+  '          Frame1.Left, Frame1.Top, 13369376
+
+  
+  'Printer.PaintPicture p, 0, 0
+  
+  'PrintPictureToFitPage Printer, _
+  '    CaptureWindow(ct_summary_form.hDC, _
+  '      True, _
+  '      fTwipsToPixels(Frame1.Left, DIRECTION_HORIZONTAL) + 10, _
+  '      fTwipsToPixels(Frame1.Top, DIRECTION_VERTICAL) + 5, _
+  '      fTwipsToPixels(Frame1.width, DIRECTION_HORIZONTAL) + 10, _
+  '      fTwipsToPixels(Frame1.height, DIRECTION_VERTICAL) + 5)
+
+  'PrintPictureToFitPage Printer,
+  'Printer.PaintPicture CaptureWindow(Frame1.hWnd, _
+  '      False, 0, 0, _
+  '      fTwipsToPixels(Frame1.width, DIRECTION_HORIZONTAL), _
+  '      fTwipsToPixels(Frame1.height, DIRECTION_VERTICAL)), _
+  '      0, 0
+
+  'PrintPictureToFitPage Printer, CaptureActiveWindow
+
+  'pic.Image = CaptureWindow(Frame1.hWnd, False, 0, 0, _
+  '      fTwipsToPixels(Frame1.width, DIRECTION_HORIZONTAL), _
+  '      fTwipsToPixels(Frame1.height, DIRECTION_VERTICAL))
+  'Printer.PaintPicture pic, 0, 0
+  
+
+'Declare Function BitBlt Lib "gdi32" (
+'ByVal hDestDC As Long,
+'    ByVal X As Long,
+'    ByVal Y As Long,
+'    ByVal nWidth As Long,
+'    ByVal nHeight As Long,
+'ByVal hSrcDC As Long,
+'    ByVal xSrc As Long,
+'    ByVal ySrc As Long,
+'    ByVal dwRop As Long) As Long
+
+  
+
+
+
+	 
+While the Package & Deployment Wizard (PDW) works just fine on Windows XP, you may encounter some errors when you try to install an XP-packaged app on an earlier OS, such as Windows 98. When you try to use the installation program, it may generate an error that says some of the files are out of date. It then asks to update the files. If you agree to update the files, Windows 98 reboots and generates the following error:
+
+The MSVCRT.DLL file is linked to missing export NTDLL.DLL RtlGetNtVersionNumbers
+
+To say the least, this behavior can cause extreme difficulty for end-users, especially if they don't have their OS backup disks handy. Fortunately, there's a workaround.
+
+Apparently, this problem occurs because the XP version of the PDW uses its own version of MSVCRT.DLL. It then tries to copy this DLL to the target machine. However, this DLL is incompatible with Windows 98 and will crash the system. To avoid this troublesome behavior, copy MSVCRT.DLL from the OS\System folder of the Visual Studio 6.0 CD to the \Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist folder on the XP machine.
+
+
+
+
+
+Public Function GetDaysInMonth(lMonth As String) As Integer
+If IsDate(lMonth) = True Then
+    lMonth = Format(lMonth, "dd/MM/yyyy")
+    GetDaysInMonth = DateDiff("D", lMonth, DateAdd("M", 1, lMonth))
+Else
+    MsgBox "Date is not Correct! Date should be in 'dd/MM/yyyy' or 'dd/MM/yy' Format.", vbInformation
+    GetDaysInMonth = 0
+End If
+End Function
+
+
+
+Fonts
+Jester Regular - C2C
+BookMan Old Style - C2C better one
+
+
+Submissions
+www.Softrom.net 4/2/2003
+http://download.e-not.net/add.php  4/2/2003
+http://www.billssoftwarepicks.com/addpad.html 4/2/2003
+www.topdownloads.net
+
+
+
+
+Private Sub paste_month_menu_Click()
+  Dim days_adjusted, answer
+  Dim index As Integer
+  
+  If (undo.doing_undo) Then
+    ' Setup for doing the undo
+    view.current_month = copy_of_month.month
+    view.current_year = copy_of_month.year
+  End If
+  
+  answer = vbYes
+  If (Not undo.doing_undo) Then
+    answer = (MsgBox(words(PASTE_ALL_TRANSACTIONS_TO_N) + " " + entry_tab.Caption, _
+        vbYesNoCancel + vbQuestion + vbApplicationModal, "Paste Month"))
+  End If
+  
+  If (answer = vbYes) Then
+    ' Yes, Paste the entire month
+    
+    ' Paste the month buffer to the new month
+    ' Be sure to check for the last day and overruns
+    days_adjusted = False
+    With copy_of_month
+      For i = 0 To MAX_RECORDS_IN_MONTH
+        If (.table(i).this <= -1) Then Exit For
+        ' We have a record to transfer
+        this = .table(i)
+        
+        If (Not undo.doing_undo) Then
+        End If
+        
+        If (this.day > view.number_of_days) Then
+          ' We must adjust the days because there are less days in the month
+          this.day = view.number_of_days
+          days_adjusted = True
+        End If
+        
+        If (undo.doing_undo) Then
+          this.month = copy_of_month.month
+          this.year = copy_of_month.year
+        Else
+          this.month = view.current_month
+          this.year = view.current_year
+          this.paid = 0  ' Clear out the done column if not doing undo
+          this.check = -1  ' Clear out the check column if not doing undo
+        End If
+        
+        ' ---- Restore the saved cardtrack ----
+        If (Not allow_paste_ct) Then
+          this.sub_transaction_number = 0
+        Else
+          If (copy_of_cardtrak_month.table(i).active) Then
+            index = insert_cardtrak_record(this, copy_of_cardtrak_month.table(i))  ' Returned index points to the ct record in the ct db
+            this.sub_transaction_number = index
+          Else
+            this.sub_transaction_number = 0
+          End If
+        End If
+        
+        ' ---- Restore the saved record ---- This must be done after ct is restored
+        insert_record (-1)
+        
+        ' Save the undo stuff
+        If (Not undo.doing_undo) Then
+          If (Not pasting_tags) Then
+            undo.what_was_done = WHAT_PASTE_MONTH
+          Else
+            undo.what_was_done = WHAT_PASTE_TAGS
+          End If
+          
+          undo.copy_of_month.table(i).this = data.current
+          undo_cardtrak_month.table(i) = cards(this.sub_transaction_number)
+          If (i < MAX_RECORDS_IN_MONTH) Then undo.copy_of_month.table(i + 1).this = -1
+          undo_menu.Enabled = True
+          undo_button.Visible = undo_menu.Enabled
+        End If
+      Next i
+    End With
+  
+    ' Save the undo notes
+    undo_menu.Caption = "Undo - Paste " + MONTH_STRINGS(view.current_month) + " " + Format(view.current_year)
+    undo.copy_of_month.notes = notes_box.Text
+    undo.copy_of_month.month = view.current_month
+    undo.copy_of_month.year = view.current_year
+    
+    If (undo.what_was_done = WHAT_PASTE_MONTH) Then
+      ' Only paste notes if it was past month, and not paste tags
+      ' Paste the notes now
+      If (Not undo.doing_undo) Then
+        answer = vbNo
+        If (preferences.prompt_for_paste_notes) Then
+          answer = MsgBox(words(PASTE_NOTES_Q_N) + " ", vbYesNoCancel + vbQuestion + vbApplicationModal, words(PASTE_MONTH_N))
+        End If
+    
+        If (answer = vbYes) Then
+          notes_box.Text = notes_box.Text + copy_of_month.notes
+          update_notes
+        End If
+      Else
+        notes_box.Text = copy_of_month.notes
+        update_notes
+      End If
+    End If
+    
+    process
+    changed_flag = True
+    update_caption
+    allow_paste_ct = False
+    If (days_adjusted) Then MsgBox words(ADJUSTED_DATES_TO_MATCH_THE_CURRENT_MONTH_N)
+  
+  End If
+End Sub
+

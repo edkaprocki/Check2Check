@@ -1,0 +1,31 @@
+[Version]
+Version=2.7.0.0
+
+[Check2Check.exe <0009>]
+Dest=$(AppPath)
+Date=4/4/2002
+Time=21:46
+Version=2.7.0.0
+CABFilename=
+Uses1=Msvbvm60.dll
+Uses2=OLEAUT32.DLL
+Uses3=OLEPRO32.DLL
+Uses4=ASYCFILT.DLL
+Uses5=STDOLE2.TLB
+Uses6=COMCAT.DLL
+Uses7=Mscal.ocx
+Uses8=Msflxgrd.ocx
+Uses9=comdlg32.ocx
+Uses10=Tabctl32.ocx
+Uses11=Mscomct2.ocx
+Uses12=MSINET.OCX
+Uses13=axGrid.ocx
+Uses14=MSSTDFMT.DLL
+Uses15=C2C.HLP
+Uses16=SUSAN SAMPLE.c2c
+
+[axGrid.ocx <0009>]
+Dest=$(WinSysPath)
+Date=5/17/2000
+Time=22:27
+Version=3.0.0.0
