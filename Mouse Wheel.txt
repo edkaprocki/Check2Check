@@ -1,0 +1,162 @@
+MOUSE WHEEL
+
+ 
+
+Home
+
+About Adit Limited
+
+Contact us
+
+Legal
+
+Adit Programmers CookBook
+
+Software Review
+ 
+     
+ Mouse Wheel 
+How to implement additional support for wheel mice in VB6 
+
+With Visual Basic 6 now starting to look "long in the tooth" and no sign of a clear successor for developing desktop and networked systems, programmers are left to find solutions to missing functionality. The wheel mouse has established itself as a useful rodent and while Windows 2000 and XP provides some limited support for your applications two key controls have not been updated. The MSFlexgrid control has no mouse wheel support and incredibly the scrollbar control has been left out as well. However you can add suitable code to your applications to fill this gap. 
+Just a note of caution. This solution makes use of a "hook" into the Windows message stream directed at your program form. If you introduce an error into the WindowProc() function (detailed below) then you will may crash the Visual Basic IDE. Please make sure that you save your program before testing and that you try and eliminate any errors in the specified routine. Once up and running this solution is entirely stable.
+
+First declare the Windows functions and the variables and constants shown. These are perhaps best added to a code module.
+
+Private Declare Function CallWindowProc Lib "user32.dll" Alias "CallWindowProcA" ( _
+ByVal lpPrevWndFunc As Long, _
+ByVal hWnd As Long, _
+ByVal Msg As Long, _
+ByVal Wparam As Long, _
+ByVal Lparam As Long) As Long
+
+Private Declare Function SetWindowLong Lib "user32.dll" Alias "SetWindowLongA" ( _
+ByVal hWnd As Long, _
+ByVal nIndex As Long, _
+ByVal dwNewLong As Long) As Long
+
+Public Const MK_CONTROL = &H8
+Public Const MK_LBUTTON = &H1
+Public Const MK_RBUTTON = &H2
+Public Const MK_MBUTTON = &H10
+Public Const MK_SHIFT = &H4
+Private Const GWL_WNDPROC = -4
+Private Const WM_MOUSEWHEEL = &H20A
+
+Dim LocalHwnd As Long
+Dim LocalPrevWndProc As Long
+Dim MyForm As Form
+
+Now copy the following functions into the same code module.
+
+Private Function WindowProc(ByVal Lwnd As Long, ByVal Lmsg As Long, ByVal Wparam As Long, ByVal Lparam As Long) As Long
+
+    Dim MouseKeys As Long
+    Dim Rotation As Long
+    Dim Xpos As Long
+    Dim Ypos As Long
+
+    If Lmsg = WM_MOUSEWHEEL Then
+        MouseKeys = Wparam And 65535
+        Rotation = Wparam / 65536
+        Xpos = Lparam And 65535
+        Ypos = Lparam / 65536
+        MyForm.MouseWheel MouseKeys, Rotation, Xpos, Ypos
+    End If
+    WindowProc = CallWindowProc(LocalPrevWndProc, Lwnd, Lmsg, Wparam, Lparam)
+End Function
+
+Public Sub WheelHook(PassedForm As Form)
+
+    On Error Resume Next
+
+    Set MyForm = PassedForm
+    LocalHwnd = PassedForm.hWnd
+    LocalPrevWndProc = SetWindowLong(LocalHwnd, GWL_WNDPROC, AddressOf WindowProc)
+End Sub
+
+
+Public Sub WheelUnHook()
+    Dim WorkFlag As Long
+
+    On Error Resume Next
+    WorkFlag = SetWindowLong(LocalHwnd, GWL_WNDPROC, LocalPrevWndProc)
+    Set MyForm = Nothing
+End Sub
+
+To activate the hook into the Windows message stream that detects the mouse wheel "event" you should call the WheelHook() Sub from the relevant Form Activate event. You should also remember to call the WheelUnHook() Sub from the Deactivate event. This cleans up by deactivating the hook into the relevant message stream but also means that you can apply this technique to multiple forms in the same application.
+
+You will note that the WindowProc() function calls a routine on the form passed to the WheelHook() Sub as an argument. This routine is (arbitrarily) called MouseWheel() and has a number of arguments. You have to provide this Sub but there are two sample ones you might like to make use of below.
+
+The first is intended to work with an MSFlexgrid control:
+
+Public Sub MouseWheel(ByVal MouseKeys As Long, ByVal Rotation As Long, ByVal Xpos As Long, ByVal Ypos As Long)
+    Dim NewValue As Long
+    Dim Lstep As Single
+
+    On Error Resume Next
+
+    With MsFlexgrid1
+        Lstep = .Height / .RowHeight(0)
+        Lstep = Int(Lstep)
+        If Lstep < 10 Then
+            Lstep = 10
+        End If
+        If Rotation > 0 Then
+            NewValue = .TopRow - Lstep
+            If NewValue < 1 Then
+                NewValue = 1
+            End If
+        Else
+            NewValue = .TopRow + Lstep
+            If NewValue > .Rows - 1 Then
+                NewValue = .Rows - 1
+            End If
+        End If
+.        TopRow = NewValue
+    End With
+End Sub
+
+This version is for a vertical scroll bar
+
+Public Sub MouseWheel(ByVal MouseKeys As Long, ByVal Rotation As Long, ByVal Xpos As Long, ByVal Ypos As Long)
+    Dim NewValue As Long
+
+    On Error Resume Next
+
+    With VScroll
+        If Rotation > 0 Then
+            NewValue = .Value - .LargeChange
+            If NewValue < .Min Then
+                NewValue = .Min
+            End If
+        Else
+           NewValue = .Value + .LargeChange
+           If NewValue > .Max Then
+               NewValue = .Max
+            End If
+        End If
+.       Value = NewValue
+    End With
+
+End Sub
+
+Remember that (perhaps counter intuitively) the horizontal scroll control may need to respond to mouse wheel action as well.
+
+Simplification
+
+You could decide that you are not going to make use of the additional mouse information such as the X and Y position and cut them from the call to your version of the MouseWheel() Sub
+
+Taking it further
+
+If your form has multiple controls without direct mouse wheel support then you could use the MouseMove events to track the control currently under the mouse cursor and then apply the wheel action to the appropriate control. Alternately you could use a click event upon the control in question to "capture" the mouse wheel actions.
+
+ 
+ 
+Adit Limited - always keeping our customer's computer systems up-to-date whatever their Operating System.
+
+ 
+  
+ 
+  
+ 

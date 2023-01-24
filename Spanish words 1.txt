@@ -1,0 +1,505 @@
+
+Hi edkaprocki@check2check.com
+
+Below the spanish transaltions.
+
+I do suggest you use a font which clearly shows the accent 
+marks. On my system Times New Roman shows the accent 
+mraks better than Courier New, a lot better.
+
+For example, I asked somebody else to take the fist shot at 
+Ch2Ch translations.  She used a Compaq keyboard, so the 
+accent marks were reversed   ```` insead of ¨¨¨¨¨.  
+
+I almost missed this problem because I was in Courier New.
+
+Let me know when check arrives
+Elsa
+Mexico City
+
+
+ENGLISH, SPANISH
+Undo - Cut Selected, Deshacer - corte de selección
+Undo - Cut, Deshacer - corte
+Undo Edit Transaction, Deshacer transacción editada
+Undo - Cut transaction, Deshacer - Corte de transacción
+Undo - Delete transaction, Deshacer - Eliminación de 
+transacción   
+File not found, Archivo no encontrado
+File length is zero, Archivo vació
+Undo - Paste transaction Deshacer - Pegar la transacción 
+Undo - Move transaction, Deshacer - Mover la transacción 
+Undo - Paste, Deshacer - pegar
+Undo - Paste and clear, Deshacer  - pegar y Vaciar
+Undo - Move Selected, Deshacer - Ultimo movimiento
+January , Enero
+February, Febrero
+March, Marzo
+April, Abril
+May, Mayo
+June, Junio
+July, Julio
+August, Agosto
+September, Septiembre
+October, Octubre
+November, Noviembre
+December, Diciembre
+Jan, Ene
+Feb, Feb
+Mar, Mar
+Apr, Abr
+May, Mayo
+Jun, Jun
+Jul, Jul
+Aug, Ago
+Sep, Sep
+Oct, Oct
+Nov, Nov
+Dec, Dic
+Mon, Lunes
+Tue, Martes
+Wed, Miércoles
+Thu, Jueves
+Fri, Viernes
+Sat, Sábado
+Sun, Domingo
+Withdrawal, Retiro
+Deposit, Depósito
+Cancel, Cancelación
+OK, OK.
+Clear Filter, Vaciar filtro
+Filter, Filtro
+Reconcile Checkbook, Reconciliación  de Chequera
+Bank Statement, Estado Bancario 
+Beginning Balance, Inicio de Balance
+Ending Balance, Fin del Balance
+Cleared Balance, Balance aclarado
+Difference, Diferencia
+Deposits, Depósitos
+Checks, Cheques
+Withdrawals, Retiros
+Show All, Demuestra todo 
+Number, Nùmero
+Finish, Terminar
+Finish Later, Terminar después 
+Cleared Transactions, Transacciones aclaradas
+Are you sure?, ¿Seguro?
+Quick Accounts -View/Edit, Cuentas Rápidas- Ver/Editar
+Due Date, Fecha de Adeudo
+Amount Needed, Cantidad requerida
+Total Saved,Total ahorrado
+Amount Saved, Cantidad ahorrada
+Pending Amount, Cantidad pendiente
+Credit Card, Tarjeta de Crédito
+Payment, Pago
+Add New Card, Añadir nueva tarjeta
+Card Name, Nombre de la tarjeta
+Name/Address/Phone Numbers/Credit 
+Limits/Comments,Nombre/Dirección/Teléfono/Límites de 
+Crédito/Comentarios
+Finance Information, Datos financieros
+Previous Balance, Balance Previo
+Purchases & Advances, Adquisiciones y Avances
+Payments & Credits, Pagos y Créditos
+Finance Charges, Cargos financieros
+Late Charges, Penalizaciones
+Current Balance, Balance Actual
+Payment Information, Datos del pago
+Date Due, Fecha de adeudo
+Amount Due, Cantidad de adeudo
+Date Paid, Fecha de pago
+Amount Paid, Cantidad del pago
+Check Number, Nùmero de cheque
+Posted, Registrado
+Interest, Interés
+Rate %, Tarifa %
+Charges, Cargos
+Clear Transactions, Vaciar transacciones 
+Clear Interest, Vaciar intereses 
+Clear All, Vaciar todo 
+Delete Card, Eliminar tarjeta 
+Delete All Cards, Eliminar todas las tarjetas 
+Save, Guardar
+Save Changes? ¿ Guardar cambios?
+Yes, Si
+No, No
+Low, Bajo
+High, Alto
+Average,Promedio
+Purchases, Adquisiciones
+Paid, Pagado
+Late, Tardado
+Minimum, Mínimo
+Est Balance, Balance estimado
+High/Low, Alto/ Bajo
+Begin/End, Inicio/ Fin
+Detailed Summary, Resumen Detallado
+Register, Registro
+Purchase Information, Datos de la Adquisición
+Run Check2Check, Iniciar  Check2Check
+Code, Código
+Not enough information entered, Información no suficiente
+
+
+
+xxxxxxxxxx
+
+  word_list(FILE_N, 0) = "File"
+  word_list(FILE_N, 1) = "Archivo"
+
+  word_list(EDIT_N, 0) = "Edit"
+  word_list(EDIT_N, 1) = "Editar"
+
+  word_list(BEGINNING_N, 0) = "Beginning"
+  word_list(BEGINNING_N, 1) = "Principio"
+
+  word_list(ENDING_N, 0) = "Ending"
+  word_list(ENDING_N, 1) = "Final"
+
+  word_list(BALANCE_N, 0) = "Balance"
+  word_list(BALANCE_N, 1) = "Balance"
+
+  word_list(INSERT_LAST_NAME_N, 0) = "Insert Last 
+Name"
+  word_list(INSERT_LAST_NAME_N, 1) = "Insertar Apellido"
+
+  word_list(LAST_REFERENCE_NUMBER_N, 0) = "Last 
+Reference Number"
+  word_list(LAST_REFERENCE_NUMBER_N, 1) = "Último 
+numero de referencia"
+
+  word_list(NEW_REFERENCE_NUMBER_N, 0) = "New 
+Reference Number"
+  word_list(NEW_REFERENCE_NUMBER_N, 1) = "Nuevo 
+numero de referencia"
+
+  word_list(CHECKBOOK_N, 0) = "Checkbook"
+  word_list(CHECKBOOK_N, 1) = "Chequera"
+
+  word_list(NEW_N, 0) = "New"
+  word_list(NEW_N, 1) = "Nuevo"
+
+  word_list(OPEN_N, 0) = "Open"
+  word_list(OPEN_N, 1) = "Abrir"
+
+  word_list(SAVE_N, 0) = "Save"
+  word_list(SAVE_N, 1) = "Guardar"
+
+  word_list(SAVE_AS_N, 0) = "Save As"
+  word_list(SAVE_AS_N, 1) = "Guardar como"
+
+  word_list(VIEW_N, 0) = "View"
+  word_list(VIEW_N, 1) = "Ver"
+
+  word_list(PRINT_N, 0) = "Print"
+  word_list(PRINT_N, 1) = "Imprimir"
+
+  word_list(PREFERENCES_N, 0) = "Preferences"
+  word_list(PREFERENCES_N, 1) = "Preferencias"
+
+  word_list(EXIT_N, 0) = "Exit"
+  word_list(EXIT_N, 1) = "Salir"
+
+  word_list(UNDO_N, 0) = "Undo"
+  word_list(UNDO_N, 1) = "Deshacer"
+
+  word_list(EDIT_TRANSACTION_N, 0) = "Edit 
+Transaction"
+  word_list(EDIT_TRANSACTION_N, 1) = "Editar transacción"
+
+  word_list(MARK_TRANSACTION_WITH_N, 0) = "Mark 
+transaction with..."
+  word_list(MARK_TRANSACTION_WITH_N, 1) = "Señalar 
+transacción con..."
+
+  word_list(BLANK_N, 0) = "Blank"
+  word_list(BLANK_N, 1) = "en Blanco"
+
+  word_list(DONE_N, 0) = "Done"
+  word_list(DONE_N, 1) = "Terminado"
+
+  word_list(PENDING_N, 0) = "Pending"
+  word_list(PENDING_N, 1) = "Pendiente"
+
+  word_list(SKIP_N, 0) = "Skip"
+  word_list(SKIP_N, 1) = "Brincar"
+
+  word_list(TAGS_N, 0) = "Tags"
+  word_list(TAGS_N, 1) = "Etiquetas"
+
+  word_list(SET_N, 0) = "Set"
+  word_list(SET_N, 1) = "poner"
+
+  word_list(ONE_N, 0) = "1"
+  word_list(ONE_N, 1) = "1"
+
+  word_list(TWO_N, 0) = "2"
+  word_list(TWO_N, 1) = "2"
+
+  word_list(THREE_N, 0) = "3"
+  word_list(THREE_N, 1) = "3"
+
+  word_list(FOUR_N, 0) = "4"
+  word_list(FOUR_N, 1) = "4"
+
+  word_list(CLEAR_N, 0) = "Clear"
+  word_list(CLEAR_N, 1) = "Vaciar"
+
+  word_list(FILTER_TRANSACTIONS_N, 0) = "Filter 
+Transactions"
+  word_list(FILTER_TRANSACTIONS_N, 1) = "Filtro"
+
+  word_list(QUICK_SAVE_N, 0) = "Quick Save"
+  word_list(QUICK_SAVE_N, 1) = "Guardado Rápido"
+
+  word_list(QUICK_DEPOSIT_N, 0) = "Quick Deposit"
+  word_list(QUICK_DEPOSIT_N, 1) = "Deposito rápido"
+
+  word_list(QUICK_VIEW_EDIT_N, 0) = "Quick 
+View/Edit"
+  word_list(QUICK_VIEW_EDIT_N, 1) = "Rápido"
+
+  word_list(INSERT_N, 0) = "Insert"
+  word_list(INSERT_N, 1) = "Insertar"
+
+  word_list(DELETE_N, 0) = "Delete"
+  word_list(DELETE_N, 1) = "Borrar"
+
+  word_list(COPY_N, 0) = "Copy"
+  word_list(COPY_N, 1) = "Copiar"
+
+  word_list(CUT_N, 0) = "Cut"
+  word_list(CUT_N, 1) = "Cortar"
+
+  word_list(PASTE_PENDING_N, 0) = "Paste Pending"
+  word_list(PASTE_PENDING_N, 1) = "Pegado pendiente"
+
+  word_list(PASTE_AND_CLEAR_N, 0) = "Paste and 
+Clear"
+  word_list(PASTE_AND_CLEAR_N, 1) = "Pegar y Vaciar"
+
+  word_list(PASTE_INTACT_N, 0) = "Paste Intact"
+  word_list(PASTE_INTACT_N, 1) = "Pegar Intacto"
+
+  word_list(COPY_SELECTED_N, 0) = "Copy Selected"
+  word_list(COPY_SELECTED_N, 1) = "Copiar Selección"
+
+  word_list(PASTE_SELECTED_N, 0) = "Paste 
+Selected"
+  word_list(PASTE_SELECTED_N, 1) = "Pegar Selección"
+
+  
+word_list(PASTE_SELECTED_INTO_CURRENT_DATE_WITH
+_STATUS_N, 0) = "Paste
+Selected into current date with Status..."
+  
+word_list(PASTE_SELECTED_INTO_CURRENT_DATE_WITH
+_STATUS_N, 1) = "Pegado
+Seleccionado en el día actual con Condición..."
+
+  word_list(INTACT_N, 0) = "Intact"
+  word_list(INTACT_N, 1) = "Intacto"
+
+  word_list(COPY_MONTH_N, 0) = "Copy Month"
+  word_list(COPY_MONTH_N, 1) = "Copiar Mes"
+
+  word_list(CUT_MONTH_N, 0) = "Cut Month"
+  word_list(CUT_MONTH_N, 1) = "Cortar Mes"
+
+  word_list(PASTE_MONTH_N, 0) = "Paste Month"
+  word_list(PASTE_MONTH_N, 1) = "Pegar Mes"
+
+  word_list(PASTE_MONTH_AND_ARRANGE_N, 0) = 
+"Paste Month and Arrange"
+  word_list(PASTE_MONTH_AND_ARRANGE_N, 1) = "Pegar 
+mes y arreglar"
+
+  word_list(PASTE_MONTH_WITH_STATUS_N, 0) = 
+"Paste Month with Status..."
+  word_list(PASTE_MONTH_WITH_STATUS_N, 1) = "Pegar 
+mes con Condición..."
+
+  word_list(COPY_TAGS_N, 0) = "Copy Tags"
+  word_list(COPY_TAGS_N, 1) = "Copiar Etiquetas"
+
+  word_list(CUT_TAGS_N, 0) = "Cut Tags"
+  word_list(CUT_TAGS_N, 1) = "Cortar Etiquetas"
+
+  
+word_list(PASTE_TAGS_AND_ARRANGE_WITH_STATUS_N, 
+0) = "Paste Tags and
+Arrange with Status..."
+  
+word_list(PASTE_TAGS_AND_ARRANGE_WITH_STATUS_N, 
+1) = "Pegar Etiquetas y Arreglar con Condición..."
+
+  
+word_list(PASTE_TAGS_INTO_CURRENT_DATE_WITH_STA
+TUS_N, 0) = "Paste Tags
+into Current Date with Status..."
+  
+word_list(PASTE_TAGS_INTO_CURRENT_DATE_WITH_STA
+TUS_N, 1) = "Pegar Etiquetas
+en el día Actual con Condición..."
+
+  word_list(PASTE_TAGS_WITH_STATUS_N, 0) = "Paste 
+Tags with Status..."
+  word_list(PASTE_TAGS_WITH_STATUS_N, 1) = "Pegar
+Etiquetas con Condición..."
+
+  word_list(INSERT_REFERENCE_NUMBER_N, 0) = 
+"Insert Reference Number"
+  word_list(INSERT_REFERENCE_NUMBER_N, 1) = 
+"Insertar Número de Referencia"
+
+  word_list(RECONCILE_N, 0) = "Reconcile"
+  word_list(RECONCILE_N, 1) = "Reconciliar"
+
+  word_list(CARDTRAK_N, 0) = "Cardtrak"
+  word_list(CARDTRAK_N, 1) = "Rastreo-Tarjeta"
+
+  word_list(NEW_TRANSACTION_N, 0) = "New 
+Transaction"
+  word_list(NEW_TRANSACTION_N, 1) = "Nueva
+Transacción"
+
+  word_list(EDIT_TRANSACTION_N, 0) = "Edit 
+Transaction"
+  word_list(EDIT_TRANSACTION_N, 1) = "Editar
+Transacción"
+
+  word_list(CONVERT_TO_CARDTRAK_N, 0) = "Convert 
+to Cardtrak"
+  word_list(CONVERT_TO_CARDTRAK_N, 1) = "Convertir a 
+Rastreo-Tarjeta"
+
+  word_list(ADD_DELETE_EDIT_CARDS_N, 0) = 
+"Add/Delete/Edit Cards"
+  word_list(ADD_DELETE_EDIT_CARDS_N, 1) = 
+"Agregar/Borrar/Editar Tarjetas"
+
+  word_list(QUICK_ACCOUNTS_N, 0) = "Quick 
+Accounts"
+  word_list(QUICK_ACCOUNTS_N, 1) = "Cuenta Rápida"
+
+  word_list(NEXT_MONTH_N, 0) = "Next Month"
+  word_list(NEXT_MONTH_N, 1) = "Mes Prox"
+
+  word_list(PREVIOUS_MONTH_N, 0) = "Previous 
+Month"
+  word_list(PREVIOUS_MONTH_N, 1) = "Mes Anterior"
+
+  word_list(TRANSACTIONS_N, 0) = "Transactions"
+  word_list(TRANSACTIONS_N, 1) = "Transacciones"
+
+  word_list(NOTES_N, 0) = "Notes"
+  word_list(NOTES_N, 1) = "Notas"
+
+  word_list(CALENDAR_N, 0) = "Calendar"
+  word_list(CALENDAR_N, 1) = "Calendario"
+
+  word_list(CALCULATOR_N, 0) = "Calculator"
+  word_list(CALCULATOR_N, 1) = "Calculadora"
+
+  word_list(OVERRIDE_COLUMNS_N, 0) = "Override 
+Columns"
+  word_list(OVERRIDE_COLUMNS_N, 1) = "Ignorar columnas"
+
+  word_list(GO_TO_MONTH_YEAR_N, 0) = "Go to Month 
+/ Year"
+  word_list(GO_TO_MONTH_YEAR_N, 1) = "Ir a Mes
+/ Año"
+
+  word_list(BALANCES_N, 0) = "Balances"
+  word_list(BALANCES_N, 1) = "Balances"
+
+  word_list(SUMMARY_N, 0) = "Summary"
+  word_list(SUMMARY_N, 1) = "Sumario"
+
+  word_list(CARDTRAK_SUMMARY_N, 0) = "Cardtrak 
+Summary"
+  word_list(CARDTRAK_SUMMARY_N, 1) = "Sumario del 
+Rastreo de Tarjeta"
+
+  word_list(HELP_N, 0) = "Help"
+  word_list(HELP_N, 1) = "Ayuda"
+
+  word_list(CONTENTS_N, 0) = "Contents"
+  word_list(CONTENTS_N, 1) = "Contenido"
+
+  word_list(INDEX_N, 0) = "Index"
+  word_list(INDEX_N, 1) = "Índice"
+
+  word_list(REGISTER_CHECK2CHECK_N, 0) = 
+"Register Check2Check"
+  word_list(REGISTER_CHECK2CHECK_N, 1) = 
+"Registrar Check2Check"
+
+  word_list(BUY_NOW_N, 0) = "Buy Now"
+  word_list(BUY_NOW_N, 1) = "Comprar Ahora"
+
+  
+word_list(CHECK_FOR_LATEST_VERSION_VIA_INTERNET_N
+, 0) = "Check for latest
+version via internet"
+  
+word_list(CHECK_FOR_LATEST_VERSION_VIA_INTERNET_N
+, 1) = "Checar para última
+versión vía Internet"
+
+  word_list(CHECK2CHECK_WEB_SITE, 0) = 
+"Check2Check Web Site"
+  word_list(CHECK2CHECK_WEB_SITE, 1) = 
+"Sitio Web Check2Check"
+
+  word_list(LANGUAGE_N, 0) = "Language"
+  word_list(LANGUAGE_N, 1) = "Idioma"
+
+  word_list(ENGLISH_N, 0) = "English"
+  word_list(ENGLISH_N, 1) = "English"
+
+  word_list(SPANISH_N, 0) = "Spanish"
+  word_list(SPANISH_N, 1) = "Spanish"
+
+  word_list(ABOUT_N, 0) = "About"
+  word_list(ABOUT_N, 1) = "Acerca de"
+
+  word_list(CLOSE_N, 0) = "Close"
+  word_list(CLOSE_N, 1) = "Cerrar"
+
+  word_list(CUT_SELECTED_N, 0) = "Cut Selected"
+  word_list(CUT_SELECTED_N, 1) = "Cortar Selección"
+
+  word_list(DATE_N, 0) = "Date"
+  word_list(DATE_N, 1) = "Fecha"
+
+  word_list(DAY_N, 0) = "Day"
+  word_list(DAY_N, 1) = "Día"
+
+  word_list(DUE_N, 0) = "Due"
+  word_list(DUE_N, 1) = "Debido"
+
+  word_list(CHECK_N, 0) = "Check"
+  word_list(CHECK_N, 1) = "Cheque"
+
+  word_list(NAME_N, 0) = "Name"
+  word_list(NAME_N, 1) = "Nombre"
+
+  word_list(STATUS_N, 0) = "Status"
+  word_list(STATUS_N, 1) = "Estado"
+
+  word_list(AMOUNT_N, 0) = "Amount"
+  word_list(AMOUNT_N, 1) = "Cantidad"
+
+  word_list(EXCLUDE_N, 0) = "Excl"
+  word_list(EXCLUDE_N, 1) = "Excluir"
+
+  word_list(CLR_N, 0) = "CLR"
+  word_list(CLR_N, 1) = "CLR"
+
+  word_list(OR_N, 0) = "O/R"
+  word_list(OR_N, 1) = "O/R"
+
+  word_list(OR_BALANCE_N, 0) = "O/R Balance"
+  word_list(OR_BALANCE_N, 1) = "O/R Balance"
+

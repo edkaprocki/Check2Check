@@ -1,0 +1,151 @@
+ All Products  |  Support  |  Search  |  Microsoft.com Guide 
+
+--------------------------------------------------------------------------------
+ Downloads
+ MS Product Catalog
+ Microsoft Accessibility
+
+--------------------------------------------------------------------------------
+ Servers
+ Developer Tools
+ Office
+ Windows
+ MSN
+
+--------------------------------------------------------------------------------
+ Knowledge Base
+ Developer Support
+ IT Pro Support
+ Product Support Options
+ Service Providers
+
+--------------------------------------------------------------------------------
+ Search Microsoft.com
+ MSN Web Search
+
+--------------------------------------------------------------------------------
+ Microsoft.com Home
+ MSN Home
+
+--------------------------------------------------------------------------------
+ Contact Us
+ Events
+ Newsletters
+ Profile Center
+ Training & Certification
+ Free E-mail Account
+  Home      Search      FAQs      Downloads      Newsgroups      Customer Service    
+   Send      Print      Help    
+ 
+ 
+Comments?  
+
+ Provide us with feedback on this article 
+Product Support Centers  
+
+ Encarta  
+ Windows 98  
+ Windows Millennium Edition  
+Other Support Options  
+
+ Contact Microsoft
+Phone Numbers, Support Options and Pricing, Online Help, and more.
+ 
+ Customer Service
+For non-technical assistance with product purchases, subscriptions, online services, events, training courses, corporate sales, piracy issues, and more.
+ 
+ Newsgroups
+Pose a question to other users. Discussion groups and Forums about specific Microsoft products, technologies, and services.
+ 
+ Microsoft Knowledge Base Article - 296551 
+Error Message: Msvcirt.dll File Is Linked to Missing Export Msvcrt.dll
+The information in this article applies to:
+Microsoft Windows Millennium Edition
+Microsoft Windows 98
+Microsoft Encarta Encyclopedia Deluxe 2003
+Microsoft Encarta Encyclopedia Standard 2003
+Microsoft Encarta Reference Library 2003 1.0
+Microsoft Encarta Reference Library 2003 - DVD Edition
+Microsoft Encarta Reference Library 2002 1.0
+
+This article was previously published under Q296551 
+SYMPTOMS
+When you start your computer, you may receive an error message similar to the following: 
+
+Msvcirt.dll file is linked to missing export msvcrt.dll : ??_u@yapaxi@z 
+Or, when you attempt to start a program, you may receive an error message similar to the following: 
+
+The Msvcirt.dll file is linked to missing export msvcrt.dll 
+These error messages may be preceded by an error message similar to the following: 
+
+drive:\Path\filename - a device attached to the system is not functioning. 
+When this occurs, you are unable to start the program. 
+CAUSE
+This behavior may occur after you install a program that overwrites either of the following two Windows system files with an incorrect or previous version: 
+Msvcirt.dll
+Msvcrt.dll 
+
+This behavior may also occur if one of these two files is damaged or missing. 
+RESOLUTION
+To resolve this issue, replace these files with new copies from your Windows installation CD-ROM. To do this, use the method for your operating system. 
+Windows Millennium Edition
+Click Start, and then click Run.
+In the Open box, type Msconfig, and then click OK.
+In System Configuration Utility, on the General tab, click Extract File.
+In the Specify the system file you would like to restore box, type Msvcrt.dll, and then click Start.
+In the Restore from box, browse to the location of your Windows Millennium Edition (Me) CD.
+
+NOTE: If you have an original equipment manufacturer (OEM) installation of Windows Me, the Windows installation files may be stored in the following location:
+C:\WINDOWS\OPTIONS\INSTALL 
+
+In the Save file in box, type C:\, and then click OK. You receive the following message: 
+Extract File
+
+The destination folder
+c:\
+does not exist. Do you want to create it? 
+
+Click Yes, and then click OK. 
+Repeat steps 3 through 6, but substitute Msvcirt.dll for Msvcrt.dll.
+Insert your Windows Me Startup disk, restart the computer, and then select Minimal Boot on the Microsoft Windows Millennium Startup Menu that appears.
+At the command prompt, type Rename C:\Windows\System\Msvcrt.dll Msvcrt.old, and then press ENTER.
+Type Rename C:\Windows\System\Msvcirt.dll Msvcirt.old, and then press ENTER.
+Type Copy C:\Msvcrt.dll C:\Windows\System, and then press ENTER.
+Type Copy C:\Msvcirt.dll C:\Windows\System, and then press ENTER.
+Remove the Windows Me Startup disk, and then restart the computer.
+Windows 98
+Click Start, and then click Run.
+In the Open box, type SFC, and then click OK.
+In the System File Checker dialog box that appears, click Extract one file from installation disk.
+In the Specify the system file you would like to restore box, type Msvcrt.dll, and then click Start.
+In the Restore from box, browse to your Windows 98 installation CD.
+
+NOTE: If you have an original equipment manufacturer (OEM) installation of Windows 98, the Windows installation files may be stored in the following location:
+C:\WINDOWS\OPTIONS\CABS 
+
+In the Save file in box, type C:\, and then click OK. You receive the following message:
+Extract File
+
+The file has been successfully extracted. 
+
+Click OK. 
+Repeat steps 3 through 6 but substitute Msvcirt.dll for Msvcrt.dll.
+Quit System File Checker, and then restart the computer in MS-DOS mode.
+At the command prompt, type Rename C:\Windows\System\Msvcrt.dll Msvcrt.old, and then press ENTER.
+Type Rename C:\Windows\System\Msvcirt.dll Msvcirt.old, and then press ENTER.
+Type Copy C:\Msvcrt.dll C:\Windows\System, and then press ENTER.
+Type Copy C:\Msvcirt.dll C:\Windows\System, and then press ENTER.
+Restart the computer.
+
+Greetings 2001
+Picture It! Publishing Platinum 2002
+SOX010427700078 
+Last Reviewed: 2/28/2003 
+Keywords: kberrmsg kbprb KB296551 
+
+ 
+ 
+  Send      Print      Help    
+ Last reviewed  Friday, February 28, 2003 
+
+© 2003 Microsoft Corporation. All rights reserved.  Terms of use  Security & Privacy  Accessibility   

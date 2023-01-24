@@ -1,0 +1,30 @@
+Quick Accounts
+
+
+Edit
+	Quick Accounts
+		View
+		Save - Pop up a window with all the active accounts
+			Put up a warning if saving more than the available balance
+		Deposit - Pop up a window with all the active accounts
+			Put up a warning if depositing more than what's in the account - borrow
+		Delete - disable when not on a quick transaction
+		
+View
+	Quick Accounts
+	
+	
+	
+- Edit Quick Accounts
+- Be able to cancel out
+- Be able to delete
+
+
+For delete
+- Prompt for delete of all pending transactions for account
+- If deleted account is not zero then display a message and prompt
+to allow the balance to be inserted at today's date
+
+- View window shouldn't stay on top like it always does
+- Pressing x out of the window will not save the data
+- Handle the plus and minus for save and deposit
