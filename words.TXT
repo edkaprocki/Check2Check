@@ -1,0 +1,229 @@
+
+
+"Characters Left"         This refers to the number of character on the screen that can be typed into the Misc Notes window
+"Caracteres dejados"
+ 
+"Next Month Top"        Go to the beginning of next month
+"Tapa siguiente del mes"
+ 
+"Previous Month Bottom"        Go to the end of the previous month
+"fondo anterior del mes"
+
+"Monthly Notes"      This was just called Notes before but I changed it to Monthly notes to distinguish it from Misc Notes
+"Notas Mensuales"
+ 
+"Misc Notes"         I thought about calling it General Notes. If you have any suggestions let me know
+"Notas Variadas"
+ 
+"Insert Last Name"
+"Nombre Actual"
+ 
+"Last Ref Number"
+"Número Actual"
+ 
+"New Ref Number"
+"Número Nuevo"
+
+"Spanish"
+"Espanole"
+
+
+
+Change
+All Cards
+Est Bal
+Cleared
+Finished
+Sort by
+Prompt for Move
+Prompt for Delete
+Show names in colors
+Auto check 'Done' on amount entry
+Auto insert new line on transaction entry
+Show override columns at startup
+Show splash screen at startup
+Prompt for paste notes
+Auto negative numbers in amount column
+Auto check 'Done' on check entry
+Save recovery file
+Same
+Change Password
+Font size for notes
+General
+Status Column
+Check Number Column
+Cleared Column
+Password
+Enter Password
+Enter New Password Twice
+Auto load last file
+No transactions copied
+No transactions cut
+No transactions to cut
+Cut all selected?
+transactions for
+No transactions to copy
+Cut all tagged?
+Delete Transaction?
+Cut all transactions for
+Move Transaction?
+Can't assign a check number to a deposit
+Check Number Error
+Save Database?
+Error
+Paste all transactions to
+Paste notes?
+Adjusted dates to match the current month
+Can't paste to the same month and year
+Paste notes?
+File not found.
+File Exists. Overwrite?
+Overwrite?
+Error in Deleting/Writing file
+Invalid number entered
+Invalid tag number
+Changing this may cause a problem when you reconcile next time. Are you sure you want to change it?
+Invalid key - Only space, * and X are permitted
+Invalid number entered
+Calculator not found.
+Save Changes?
+Delete ALL Credit Cards and Information?
+Are You Absolutely Sure?
+All credit cards have been deleted
+Delete?
+New transaction entered
+Must have a transaction name
+Must select a credit card
+Select card
+errors in CT database, 1st=
+Add new card?
+Sorry, no space for cards
+Are you sure?
+Invalid entry
+Passwords don't match
+Delete Quick Save account?
+Delete Quick Save account
+Are you sure? Quick Save account balance is not zero.
+Invalid number
+Sorry, not enough money in that account. Maximum allowed is
+Save Quick Account Data?
+Save Quick Account Data
+Invalid amount
+Do you want to finalize the reconciliation process now?
+The difference is not $0.00. Are you sure you want to finish the reconciliation process now?
+Success. Thank you for registering 
+Sorry, not a valid Name / Code.
+transactions for
+Save?
+Add?
+Delete?
+Select this card?
+Change finished status?
+Delete account?
+Warning, Quick Save account balance not zero.
+Cancel reconcilation?
+Success - Reconciliation Complete
+Caution - Reconcilation Not Complete
+
+
+
+======================Duplicates==========================
+
+No transactions copied
+No transactions to cut
+Cut all selected
+transactions for
+No transactions to copy
+Cut all tagged
+Delete Transaction?
+Cut all transactions for
+Move Transaction?
+Can't assign a check number to a deposit
+Check Number Error
+Save Database?
+Error
+Paste all transactions to
+Paste notes?
+Adjusted dates to match the current month
+Can't paste to the same month and year
+Paste notes?
+File not found.
+File Exists. Overwrite?
+Overwrite?
+Error in Deleting/Writing file
+Invalid number entered
+Invalid tag number
+Changing this may cause a problem when you reconcile next time. Are you sure you want to change it
+Invalid key - Only space, * and X are permitted
+Invalid number entered
+Calculator not found.
+transactions for 
+
+Save Changes?
+Delete ALL Credit Cards and Information?
+Are You Absolutely Sure?
+All credit cards have been deleted
+Delete
+New transaction entered
+Must have a transaction name
+Must select a credit card
+Select card
+errors in CT database, 1st=
+Add new card?
+Sorry, no space for cards
+Save?
+Add?
+Change finished status?
+Delete account?
+Warning, Quick Save account balance not zero!
+Cancel reconcilation?
+Success - Reconcilation Complete
+Caution - Reconcilation Not Complete
+
+
+Are you sure?
+Invalid entry
+Passwords don't match
+Delete Quick Save account
+Are you sure? Quick Save account balance is not zero.
+Invalid number
+Sorry, not enough money in that account. Maximum allowed is
+Save Quick Account Data?
+Invalid amount
+Do you want to finalize the reconciliation process now?
+The difference is not $0.00. Are you sure you want to finish the reconciliation process now?
+Success. Thank you for registering Check2Check.
+Sorry, not a valid Name / Code.
+transactions for
+
+
+
+Change
+All Cards
+Est Bal
+Cleared
+Finished
+Sort by
+Prompt for Move
+Prompt for Delete
+Show names in colors
+Auto check 'Done' on amount entry
+Auto insert new line on transaction entry
+Show override columns at startup
+Show splash screen at startup
+Prompt for paste notes
+Auto negative numbers in amount column
+Auto check 'Done' on check entry
+Save recovery file
+Same
+Change Password
+Font size for notes
+General
+Status Column
+Check Number Column
+Cleared Column
+Password
+Enter Password
+Enter New Password Twice
+Auto load last file
+Caution - Transaction permantly marked
